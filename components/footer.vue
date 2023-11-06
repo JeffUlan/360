@@ -48,7 +48,7 @@
 						<div class="col-lg-3 col-md-6 col-12">
 							<div class="single-footer">
 								<h2>Open Hours</h2>
-								<p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p>
+                                <p>We are always ready for your health. Receive our friendly service.</p>
 								<ul class="time-sidual">
 									<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
 									<li class="day">Saturday <span>9.00-18.30</span></li>
@@ -59,7 +59,7 @@
 						<div class="col-lg-3 col-md-6 col-12">
 							<div class="single-footer">
 								<h2>Newsletter</h2>
-								<p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+								<p>subscribe to our newsletter to get allour news in your inbox.. Caring for patients is very important.</p>
 								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
 									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
 										onblur="this.placeholder = 'Your email address'" required="" type="email">
