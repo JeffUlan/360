@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -28,7 +28,6 @@
     "@iconify/json": "^2.2.123",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^4.4.0",
-    "devtools": "^8.21.0",
     "jquery": "^3.4.1",
     "openai": "^4.12.4",
     "popper": "^1.0.1",
