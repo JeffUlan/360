@@ -10,10 +10,10 @@
                                 <nav aria-label="breadcrumb" class="page-breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><nuxt-link to="/patient/patientdashboard">Home</nuxt-link></li>
-                                        <li class="breadcrumb-item active" aria-current="page">My Profiles</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Medical Record</li>
                                     </ol>
                                 </nav>
-                                <h2 class="breadcrumb-title">My Profiles</h2>
+                                <h2 class="breadcrumb-title">My Medical Record</h2>
                             </div>
                         </div>
                     </div>
@@ -24,194 +24,69 @@
                 <div class="content">
                     <div class="container-fluid">
                         <div class="row">
-                        
-                            <!-- Profile Sidebar -->
-                            <div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
-                                <div class="profile-sidebar">
-                                    <div class="widget-profile pro-widget-content">
-                                        <div class="profile-info-widget">
-                                            <a href="#" class="booking-doc-img">
-                                                <img src="~/assets/img/patients/patient.jpg" alt="User Image">
-                                            </a>
-                                            <div class="profile-det-info">
-                                                <h3>Takeo Fukuda</h3>
-                                                <div class="patient-details">
-                                                    <h5><i class="fas fa-birthday-cake"></i> 24 Jul 1983, 38 years</h5>
-                                                    <h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Tokyo, Japan</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dashboard-widget">
-                                        <nav class="dashboard-menu">
-                                            <ul>
-                                                <li>
-                                                    <nuxt-link to="/patient/patientdashboard">
-                                                        <i class="fas fa-columns"></i>
-                                                        <span>Dashboard</span>
-                                                    </nuxt-link>
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/patient/patientsearchdoctor">
-                                                        <i class="fas fa-search"></i>
-                                                        <span>Find your Doctor</span>
-                                                    </nuxt-link>
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/patient/patientfamilymember">
-                                                        <i class="fas fa-person-booth"></i>
-                                                        <span>Family Member</span>
-                                                    </nuxt-link>
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/patient/patientchat">
-                                                        <i class="fas fa-comments"></i>
-                                                        <span>Chat</span>
-                                                        <small class="unread-msg">23</small>
-                                                    </nuxt-link>
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/patient/patienttreatplan">
-                                                        <i class="icofont icofont-calendar"></i>
-                                                        <span>Calendar</span>
-                                                    </nuxt-link>
-                                                </li>
-                                                <li class="active">
-                                                    <nuxt-link to="/patient/patientprofilesetting">
-                                                        <i class="fas fa-user-cog"></i>
-                                                        <span>My Profile</span>
-                                                    </nuxt-link>
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/patient/patientEHR">
-                                                        <i class="icofont icofont-medical-sign"></i>
-                                                        <span>My Clinical History</span>
-                                                    </nuxt-link>
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/patient/patientchangepassword">
-                                                        <i class="fas fa-lock"></i>
-                                                        <span>Change Password</span>
-                                                    </nuxt-link>
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/patient/patientdashboard">
-                                                        <i class="fas fa-sign-out-alt"></i>
-                                                        <span>Logout</span>
-                                                    </nuxt-link>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <!-- /Profile Sidebar -->
                             
-                            <div class="col-md-7 col-lg-8 col-xl-9">
+                            <div class="col-md-12 col-lg-12 col-xl-12">
                                 <div class="card">
                                     <div class="card-body">
                                         
                                         <!-- My Profiles Form -->
                                         <form>
                                             <div class="row form-row">
-                                                <div class="col-12 col-md-12">
-                                                    <div class="form-group">
-                                                        <div class="change-avatar">
-                                                            <div class="profile-img">
-                                                                <img src="~/assets/img/patients/patient.jpg" alt="User Image">
-                                                            </div>
-                                                            <div class="upload-img">
-                                                                <div class="change-photo-btn">
-                                                                    <span><i class="fa fa-upload"></i> Upload Photo</span>
-                                                                    <input type="file" class="upload">
-                                                                </div>
-                                                                <small class="form-text text-muted">Allowed JPG, GIF or PNG. Max size of 2MB</small>
-                                                            </div>
+                                                <div class="col-md-12 dropzone-b mb-20">
+                                                    <div class="form-group dropzone-b">
+                                                        <h4 class="medical-date mb-10">14 Nov 2023</h4>
+                                                    </div>
+                                                    <div class="col-12 col-md-12">
+                                                        <div class="form-group">
+                                                            <label>Description</label>
+                                                            <textarea type="text" class="form-control h-150" value="" placeholder="Here are text of doctor" disabled></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="upload-wrap mb">
+                                                        <div class="upload-images">
+                                                            <img src="/img/hurt.png" alt="Upload Image">
+                                                        </div>
+                                                        <div class="upload-images">
+                                                            <img src="/img/hurt.png" alt="Upload Image">
+                                                        </div>
+                                                        <div class="upload-images">
+                                                            <img src="/img/hurt.png" alt="Upload Image">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>First Name</label>
-                                                        <input type="text" class="form-control" value="Richard">
+                                                
+                                            </div>
+                                            <div class="row form-row">
+                                                <div class="col-md-12 dropzone-b mb-20">
+                                                    <div class="col-12 col-md-12">
+                                                        <div class="form-group">
+                                                            <label>Description</label>
+                                                            <textarea type="text" class="form-control h-150" value="" placeholder="Here are text of doctor" disabled></textarea>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Last Name</label>
-                                                        <input type="text" class="form-control" value="Wilson">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Date of Birth</label>
-                                                        <div class="cal-icon">
-                                                            <input type="text" class="form-control datetimepicker datepicker" id="datepicker" value="24-07-1983">
+                                                    <div class="upload-wrap mb">
+                                                        <div class="upload-images">
+                                                            <img src="/img/hurt2.png" alt="Upload Image">
+                                                        </div>
+                                                        <div class="upload-images">
+                                                            <img src="/img/hurt2.png" alt="Upload Image">
+                                                        </div>
+                                                        <div class="upload-images">
+                                                            <img src="/img/hurt2.png" alt="Upload Image">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Blood Group</label>
-                                                        <select class="form-control select">
-                                                            <option>A-</option>
-                                                            <option>A+</option>
-                                                            <option>B-</option>
-                                                            <option>B+</option>
-                                                            <option>AB-</option>
-                                                            <option>AB+</option>
-                                                            <option>O-</option>
-                                                            <option>O+</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Email ID</label>
-                                                        <input type="email" class="form-control" value="one@example.com">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Mobile</label>
-                                                        <input type="text" value="+1 202-555-0125" class="form-control">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <div class="form-group">
-                                                    <label>Address</label>
-                                                        <input type="text" class="form-control" value="806 Twin Willow Lane">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>City</label>
-                                                        <input type="text" class="form-control" value="Old Forge">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>State</label>
-                                                        <input type="text" class="form-control" value="Tokyo">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Zip Code</label>
-                                                        <input type="text" class="form-control" value="13420">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Country</label>
-                                                        <input type="text" class="form-control" value="Japan">
-                                                    </div>
+                                                
+                                            </div>
+                                            
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <div class="form-group">
+                                                    <input type="checkbox" id="accept" class="w-a">
+                                                    <label for="accept">&nbsp;Are you agree to export uploaded Images and Pdf documents?</label><br>
                                                 </div>
                                             </div>
-                                            <div class="submit-section">
-                                                <button type="submit" class="btn btn-primary submit-btn">Save Changes</button>
-                                            </div>
+
+                                            <a class="btn btn-primary submit-btn fw mr-10">Export to PDF</a>
                                         </form>
                                         <!-- /My Profiles Form -->
                                         
@@ -232,8 +107,8 @@ export default {
     name: 'PatientProfileSetting',
     components: {     
     },
-    mounted() {   
-        
+    mounted() {
+
         var Datepicker = function(element, options){
             this.element = $(element);
             this.format = DPGlobal.parseFormat(options.format||this.element.data('date-format')||'mm/dd/yyyy');
@@ -259,7 +134,7 @@ export default {
                     this.element.on('click', $.proxy(this.show, this));
                 }
             }
-
+        
             this.minViewMode = options.minViewMode||this.element.data('date-minviewmode')||0;
             if (typeof this.minViewMode === 'string') {
                 switch (this.minViewMode) {
@@ -297,7 +172,7 @@ export default {
             this.update();
             this.showMode();
         };
-
+        
         Datepicker.prototype = {
             constructor: Datepicker,
             
@@ -544,7 +419,7 @@ export default {
                 this.picker.find('>div').hide().filter('.datepicker-'+DPGlobal.modes[this.viewMode].clsName).show();
             }
         };
-
+        
         $.fn.datepicker = function ( option, val ) {
             return this.each(function () {
                 var $this = $(this),
@@ -563,7 +438,7 @@ export default {
             }
         };
         $.fn.datepicker.Constructor = Datepicker;
-
+        
         var DPGlobal = {
             modes: [
                 {
@@ -683,12 +558,70 @@ export default {
                                     '</table>'+
                                 '</div>'+
                             '</div>';
-                            
+
         $("#datepicker").datepicker();
-    }   
+    }
 }
-
 </script>
-<style>
 
+<style>
+.form-contro {
+    border-color: #dcdcdc;
+    color: #333;
+    font-size: 15px;
+    min-height: 46px;
+    padding: 6px 15px;
+}
+.form-contro {
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.add-image{
+    font-size: 30px !important;
+    color:#1A76D1 !important;
+}
+.btn-sm{
+    position:relative !important;
+    /* background:#1A76D1 !important; */
+}
+.fw{
+    color:white !important;
+}
+.dropzone-b {
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.1) !important;
+    /* border-bottom: dashed; */
+}
+.mb-20{
+    margin-bottom: 20px !important;
+}
+.h-150{
+    height:150px !important;
+}
+.fr{
+    float:right;
+    margin-right:5px;
+}
+.mb-10{
+    margin-bottom :10px;
+}
+.mr-10{
+    margin-right:20px;
+}
+.mb{
+    margin-bottom: 1.25rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.medical-date{
+    color:#1A76D1;
+}
 </style>

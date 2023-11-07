@@ -7,11 +7,11 @@
     
     <section class="slider">
         <div class="hero-slider">
-            <div class="single-slider" style="background-image:url('/img/slider/slider.jpg')">
+            <div class="single-slider" style="background-image:url('/img/slider/slider.png')">
             </div>
-            <div class="single-slider" style="background-image:url('/img/slider/slider2.jpg')">
+            <div class="single-slider" style="background-image:url('/img/slider/slider2.png')">
             </div>
-            <div class="single-slider" style="background-image:url('/img/slider/slider3.jpg')">
+            <div class="single-slider" style="background-image:url('/img/slider/slider3.png')">
             </div>
         </div>
     </section>
@@ -566,11 +566,11 @@ export default {
     },
     mounted() {
         $(".hero-slider").html(`
-            <div class="single-slider" style="background-image:url('/img/slider/slider.jpg')">
+            <div class="single-slider" style="background-image:url('/img/slider/slider.png')">
             </div>
-            <div class="single-slider" style="background-image:url('/img/slider/slider2.jpg')">
+            <div class="single-slider" style="background-image:url('/img/slider/slider2.png')">
             </div>
-            <div class="single-slider" style="background-image:url('/img/slider/slider3.jpg')">
+            <div class="single-slider" style="background-image:url('/img/slider/slider3.png')">
             </div>
         `);
 
@@ -587,7 +587,7 @@ export default {
                 navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
                 dots: false,
             });
-        }, 500);
+        }, 50);
 
         if($('.specialities-slider').length > 0) {
             $('.specialities-slider').slick({

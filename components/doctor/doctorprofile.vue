@@ -46,7 +46,7 @@
                                                 <span class="d-inline-block average-rating">(35)</span>
                                             </div>
                                             <div class="clinic-details">
-                                                <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Newyork, USA - <a href="javascript:void(0);">Get Directions</a></p>
+                                                <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Tokyo, Japan - <a href="javascript:void(0);">Get Directions</a></p>
                                                 <ul class="clinic-gallery">
                                                     <li>
                                                         <a href="~/assets/img/features/feature-01.jpg" data-fancybox="gallery">
@@ -81,7 +81,7 @@
                                             <ul>
                                                 <li><i class="far fa-thumbs-up"></i> 99%</li>
                                                 <li><i class="far fa-comment"></i> 35 Feedback</li>
-                                                <li><i class="fas fa-map-marker-alt"></i> Newyork, USA</li>
+                                                <li><i class="fas fa-map-marker-alt"></i> Tokyo, Japan</li>
                                                 <li><i class="far fa-money-bill-alt"></i> $100 per hour </li>
                                             </ul>
                                         </div>
@@ -234,7 +234,7 @@
                                                                 </div>
                                                                 <div class="experience-content">
                                                                     <div class="timeline-content">
-                                                                        <p class="exp-year">July 2019</p>
+                                                                        <p class="exp-year">July 2023</p>
                                                                         <h4 class="exp-title">Humanitarian Award</h4>
                                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
                                                                     </div>
@@ -687,7 +687,7 @@
                                                     <div class="widget-content">
                                                         <div class="listing-hours">
                                                             <div class="listing-day current">
-                                                                <div class="day">Today <span>5 Nov 2019</span></div>
+                                                                <div class="day">Today <span>5 Nov 2023</span></div>
                                                                 <div class="time-items">
                                                                     <span class="open-status"><span class="badge bg-success-light">Open Now</span></span>
                                                                     <span class="time">07:00 AM - 09:00 PM</span>

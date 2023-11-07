@@ -47,6 +47,22 @@
                                         <h4 class="card-title mb-0">Search Filter</h4>
                                     </div>
                                     <div class="card-body">
+                                        <!-- <div class="row" style="justify-content: space-evenly;">
+                                            <div class="payment-list">
+                                                <label class="payment-radio paypal-option">
+                                                    <input type="radio" name="radio" checked>
+                                                    <span class="checkmark"></span>
+                                                    Specialists
+                                                </label>
+                                            </div>
+                                            <div class="payment-list">
+                                                <label class="payment-radio paypal-option">
+                                                    <input type="radio" name="radio">
+                                                    <span class="checkmark"></span>
+                                                    Clinics
+                                                </label>
+                                            </div>
+                                        </div> -->
                                         <div class="filter-widget">
                                             <div>
                                                 <input type="search" class="form-control"  id="specialsearch" placeholder="Select Specialist">
@@ -189,7 +205,7 @@
                                                 </div>
                                                 <ul class="available-info">
                                                     <li>
-                                                        <i class="fas fa-map-marker-alt"></i> Newyork, USA
+                                                        <i class="fas fa-map-marker-alt"></i> Tokyo, Japan
                                                     </li>
                                                     <li>
                                                         <i class="far fa-clock"></i> Available on Fri, 22 Mar

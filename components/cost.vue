@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <!-- Single Table -->
-                <div class="col-lg-12 col-md-12 col-12">
+                <div class="col-lg-9 col-md-12 col-12" style="margin:auto;">
                     <div class="single-table">
                         <!-- Table Head -->
                         <div class="table-head">
@@ -35,15 +35,15 @@
                         <!-- Table List -->
                         <div class="table-list">
                             <div class="row jb">
-                                <div class="ml-30">access to Unlimited General Physician Free consultancies and Blue Card for  1 Specialist visit/month free</div>
+                                <div class="ml-30">Access to Unlimited General Physician <br>Free consultancies and Blue Card for  1 Specialist/visit month free</div>
                                 <div class="price-style">49.99 $</div>
                             </div>
                             <div class="row jb">
-                                <div class="ml-30">access to Unlimited General physician Free consultancies and Blue Card for 5 Specialists/visit month free</div>
+                                <div class="ml-30">Access to Unlimited General physician <br>Free consultancies and Blue Card for 5 Specialists/visit month free</div>
                                 <div class="price-style">79.99 $</div>
                             </div>
                             <div class="row jb">
-                                <div class="ml-30">Access to Unlimited General physician Free consultancies and Blue Card for 5 Specialists/visit month free for the family.</div>
+                                <div class="ml-30">Access to Unlimited General physician <br>Free consultancies and Blue Card for 5 Specialists/visit month free for the family.</div>
                                 <div class="price-style">99.99 $</div>
                             </div>
                             

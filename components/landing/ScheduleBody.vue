@@ -46,11 +46,13 @@
                                 <div class="icon">
                                     <i class="fa fa-ambulance"></i>
                                 </div>
-                                <div class="single-content">
-                                    <h4>E-Consultancy</h4>
-                                    <p>You can get an initial visit or a second opinion from a specialist.</p>
-                                    <i class="fa fa-long-arrow-right"></i>
-                                </div>
+                                <nuxt-link to="/patient/patientsearchdoctor" class="mt-0">
+                                    <div class="single-content">
+                                        <h4>E-Consultancy</h4>
+                                        <p>You can get an initial visit or a second opinion from a specialist.</p>
+                                        <i class="fa fa-long-arrow-right"></i>
+                                    </div>
+                                </nuxt-link>
                             </div>
                         </div>
                     </div>
@@ -60,11 +62,13 @@
                                 <div class="icon">
                                     <i class="icofont-prescription"></i>
                                 </div>
-                                <div class="single-content">
-                                    <h4>Find your Clinic</h4>
-                                    <p>You can receive medical advice and treatment without visiting in person.</p>
-                                    <i class="fa fa-long-arrow-right"></i>
-                                </div>
+                                <nuxt-link to="/patient/patientsearchdoctor" class="mt-0">
+                                    <div class="single-content">
+                                        <h4>Find your Clinic</h4>
+                                        <p>You can receive medical advice and treatment without visiting in person.</p>
+                                        <i class="fa fa-long-arrow-right"></i>
+                                    </div>
+                                </nuxt-link>
                             </div>
                         </div>
                     </div>
@@ -74,11 +78,13 @@
                                 <div class="icon">
                                     <i class="icofont-handshake-deal"></i>
                                 </div>
-                                <div class="single-content">
-                                    <h4>Appointment</h4>
-                                    <p>You can receive medical care from the comfort of your own home.</p>
-                                    <i class="fa fa-long-arrow-right"></i>
-                                </div>
+                                <nuxt-link to="/patient/patientsearchdoctor" class="mt-0">
+                                    <div class="single-content">
+                                        <h4>Appointment</h4>
+                                        <p>You can receive medical care from the comfort of your own home.</p>
+                                        <i class="fa fa-long-arrow-right"></i>
+                                    </div>
+                                </nuxt-link>
                             </div>
                         </div>
                     </div>

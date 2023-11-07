@@ -32,7 +32,7 @@
                                         </div>
                                         <div class="media-body">
                                             <div>
-                                                <div class="user-name">Richard Wilson</div>
+                                                <div class="user-name">Takeo Fukuda</div>
                                                 <div class="user-last-chat">Hey, How are you?</div>
                                             </div>
                                             <div>
@@ -204,7 +204,7 @@
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <div class="user-name">Richard Wilson</div>
+                                        <div class="user-name">Takeo Fukuda</div>
                                         <div class="user-status">online</div>
                                     </div>
                                 </div>
@@ -470,7 +470,7 @@
                             <div class="call-inner">
                                 <div class="call-user">
                                     <img alt="User Image" src="~/assets/img/patients/patient.jpg" class="call-avatar">
-                                    <h4>Richard Wilson</h4>
+                                    <h4>Takeo Fukuda</h4>
                                     <span>Connecting...</span>
                                 </div>							
                                 <div class="call-items">
@@ -501,7 +501,7 @@
                             <div class="call-inner">
                                 <div class="call-user">
                                     <img class="call-avatar" src="~/assets/img/patients/patient.jpg" alt="User Image">
-                                    <h4>Richard Wilson</h4>
+                                    <h4>Takeo Fukuda</h4>
                                     <span>Calling ...</span>
                                 </div>							
                                 <div class="call-items">

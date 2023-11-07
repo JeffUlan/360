@@ -37,10 +37,10 @@
 								</div>
 								<div class="card-body">
 									<div id="calendar-events" class="mb-3">
-										<div class="calendar-events" data-class="bg-info"><i class="fas fa-circle text-info"></i> Call with your doctor</div>
-										<div class="calendar-events" data-class="bg-success"><i class="fas fa-circle text-success"></i> Personal appointment</div>
-										<div class="calendar-events" data-class="bg-danger"><i class="fas fa-circle text-danger"></i> Clinical test reminder</div>
-										<div class="calendar-events" data-class="bg-warning"><i class="fas fa-circle text-warning"></i> Other events</div>
+										<div class="calendar-events" data-class="bg-info"><i class="fas fa-circle text-info"></i> My Event One</div>
+										<div class="calendar-events" data-class="bg-success"><i class="fas fa-circle text-success"></i> My Event Two</div>
+										<div class="calendar-events" data-class="bg-danger"><i class="fas fa-circle text-danger"></i> My Event Three</div>
+										<div class="calendar-events" data-class="bg-warning"><i class="fas fa-circle text-warning"></i> My Event Four</div>
 									</div>
 									<div class="checkbox mb-3">
 										<input id="drop-remove" type="checkbox">
@@ -166,6 +166,7 @@ export default {
     components: {     
     },
     mounted() {
+        $('#calendar').html('');
 		var CalendarApp = function() {
         this.$body = $("body")
         this.$calendar = $('#calendar'),
@@ -292,27 +293,29 @@ export default {
         var form = '';
         var today = new Date($.now());
 
-        var defaultEvents =  [{
-                title: 'Other event',
-                start: new Date($.now() + 148000000),
+        var defaultEvents =  [
+            {
+                title: 'Benazepril',
+                start: new Date($.now() + 148000000), 
                 className: 'bg-purple'
             },
             {
-                title: 'Call with your doctor',
+                title: 'Benazepril',
                 start: today,
                 end: today,
                 className: 'bg-success'
             },
             {
-                title: 'reminder',
-                start: new Date($.now() + 168000000),
+                title: 'Amoxapine',
+                start: new Date($.now() + 508000000),
                 className: 'bg-info'
             },
             {
-                title: 'appointment',
-                start: new Date($.now() + 338000000),
+                title: 'Amoxapine',
+                start: new Date($.now() + 508000000),
                 className: 'bg-primary'
-            }];
+            }
+        ];
 
         var $this = this;
         $this.$calendarObj = $this.$calendar.fullCalendar({

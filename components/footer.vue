@@ -8,7 +8,7 @@
 						<div class="col-lg-3 col-md-6 col-12">
 							<div class="single-footer">
 								<h2>About Us</h2>
-								<p>At the heart of our mission lies a commitment to reinvent healthcare through cutting-edge telehealth solutions.</p>
+								<p>At the heart of our mission lies a commitment to reinvent healthcare through cutting-edge Healthtech solutions.</p>
 								<!-- Social -->
 								<ul class="social">
 									<li><a href="#"><i class="icofont-facebook"></i></a></li>
@@ -48,18 +48,18 @@
 						<div class="col-lg-3 col-md-6 col-12">
 							<div class="single-footer">
 								<h2>Open Hours</h2>
-                                <p>We are always ready for your health. Receive our friendly service.</p>
+                                <p>We are always ready for your health. <br>Receive our friendly service.</p>
 								<ul class="time-sidual">
-									<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
+									<li class="day">Monday - Friday <span>8.00-20.00</span></li>
 									<li class="day">Saturday <span>9.00-18.30</span></li>
-									<li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+                                    <li class="day">Sunday <span>10.00-14.00</span></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-12">
 							<div class="single-footer">
 								<h2>Newsletter</h2>
-								<p>subscribe to our newsletter to get allour news in your inbox.. Caring for patients is very important.</p>
+								<p>Subscribe to our newsletter to get allour news in your inbox.. <br>Caring for patients is very important.</p>
 								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
 									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
 										onblur="this.placeholder = 'Your email address'" required="" type="email">
@@ -77,7 +77,7 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-12">
 							<div class="copyright-content">
-								<p>© Copyright 2023  |  All Rights Reserved by <a href="mailto:hello@sunshineoxygen.com">hello@sunshineoxygen.com</a> </p>
+								<p>© Copyright 2023 &nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved by SunshineOxygen</p>
 							</div>
 						</div>
 					</div>

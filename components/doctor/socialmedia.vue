@@ -82,14 +82,14 @@
                                     <li>
                                         <nuxt-link to="/doctor/chatdoctor">
                                             <i class="fas fa-comments"></i>
-                                            <span>Message</span>
+                                            <span>Chat</span>
                                             <small class="unread-msg">18</small>
                                         </nuxt-link>
                                     </li>
                                     <li>
                                         <nuxt-link to="/doctor/profilesettings">
                                             <i class="fas fa-user-cog"></i>
-                                            <span>Profile Settings</span>
+                                            <span>My Profile</span>
                                         </nuxt-link>
                                     </li>
                                     <li class="active">

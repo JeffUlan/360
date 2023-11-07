@@ -82,14 +82,14 @@
                                     <li>
                                         <nuxt-link to="/doctor/chatdoctor">
                                             <i class="fas fa-comments"></i>
-                                            <span>Message</span>
+                                            <span>Chat</span>
                                             <small class="unread-msg">18</small>
                                         </nuxt-link>
                                     </li>
                                     <li>
                                         <nuxt-link to="/doctor/profilesettings">
                                             <i class="fas fa-user-cog"></i>
-                                            <span>Profile Settings</span>
+                                            <span>My Profile</span>
                                         </nuxt-link>
                                     </li>
                                     <li>
@@ -129,7 +129,7 @@
                                     <img class="avatar rounded-circle" alt="User Image" src="~/assets/img/patients/patient.jpg">
                                     <div class="comment-body">
                                         <div class="meta-data">
-                                            <span class="comment-author">Richard Wilson</span>
+                                            <span class="comment-author">Takeo Fukuda</span>
                                             <span class="comment-date">Reviewed 2 Days ago</span>
                                             <div class="review-count rating">
                                                 <i class="fas fa-star filled"></i>
@@ -409,7 +409,7 @@
                                     <div class="comment-body">
                                         <div class="meta-data">
                                             <span class="comment-author">Daniel Griffing</span>
-                                            <span class="comment-date">Reviewed on 1 Nov 2019</span>
+                                            <span class="comment-date">Reviewed on 1 Nov 2023</span>
                                             <div class="review-count rating">
                                                 <i class="fas fa-star filled"></i>
                                                 <i class="fas fa-star filled"></i>

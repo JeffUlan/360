@@ -38,7 +38,7 @@
                                                 <h3>Takeo Fukuda</h3>
                                                 <div class="patient-details">
                                                     <h5><i class="fas fa-birthday-cake"></i> 24 Jul 1983, 38 years</h5>
-                                                    <h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Newyork, USA</h5>
+                                                    <h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Tokyo, Japan</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -55,7 +55,7 @@
                                                 <li>
                                                     <nuxt-link to="/patient/patientsearchdoctor">
                                                         <i class="fas fa-search"></i>
-                                                        <span>Search Doctor</span>
+                                                        <span>Find your Doctor</span>
                                                     </nuxt-link>
                                                 </li>
                                                 <li>
@@ -67,7 +67,7 @@
                                                 <li>
                                                     <nuxt-link to="/patient/patientchat">
                                                         <i class="fas fa-comments"></i>
-                                                        <span>Message</span>
+                                                        <span>Chat</span>
                                                         <small class="unread-msg">23</small>
                                                     </nuxt-link>
                                                 </li>
@@ -80,13 +80,13 @@
                                                 <li>
                                                     <nuxt-link to="/patient/patientprofilesetting">
                                                         <i class="fas fa-user-cog"></i>
-                                                        <span>Profile Settings</span>
+                                                        <span>My Profile</span>
                                                     </nuxt-link>
                                                 </li>
                                                 <li>
                                                     <nuxt-link to="/patient/patientEHR">
                                                         <i class="icofont icofont-medical-sign"></i>
-                                                        <span>Electronic Health Records</span>
+                                                        <span>My Clinical History</span>
                                                     </nuxt-link>
                                                 </li>
                                                 <li class="active">

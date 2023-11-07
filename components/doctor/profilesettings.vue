@@ -7,10 +7,10 @@
                     <nav aria-label="breadcrumb" class="page-breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><nuxt-link to="/doctor/doctordashboard">Home</nuxt-link></li>
-                            <li class="breadcrumb-item active" aria-current="page">Profile Settings</li>
+                            <li class="breadcrumb-item active" aria-current="page">My Profiles</li>
                         </ol>
                     </nav>
-                    <h2 class="breadcrumb-title">Profile Settings</h2>
+                    <h2 class="breadcrumb-title">My Profiles</h2>
                 </div>
             </div>
         </div>
@@ -82,14 +82,14 @@
                                     <li>
                                         <nuxt-link to="/doctor/chatdoctor">
                                             <i class="fas fa-comments"></i>
-                                            <span>Message</span>
+                                            <span>Chat</span>
                                             <small class="unread-msg">18</small>
                                         </nuxt-link>
                                     </li>
                                     <li class="active">
                                         <nuxt-link to="/doctor/profilesettings">
                                             <i class="fas fa-user-cog"></i>
-                                            <span>Profile Settings</span>
+                                            <span>My Profile</span>
                                         </nuxt-link>
                                     </li>
                                     <li>

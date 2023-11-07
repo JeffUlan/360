@@ -44,7 +44,7 @@
                                                     <i class="fas fa-star"></i>
                                                     <span class="d-inline-block average-rating">35</span>
                                                 </div>
-                                                <p class="text-muted mb-0"><i class="fas fa-map-marker-alt"></i> Newyork, USA</p>
+                                                <p class="text-muted mb-0"><i class="fas fa-map-marker-alt"></i> Tokyo, Japan</p>
                                             </div>
                                         </div>
                                     </div>
@@ -68,31 +68,31 @@
                                                         </li>
                                                         <li>
                                                             <span>Mon</span>
-                                                            <span class="slot-date">11 Nov <small class="slot-year">2019</small></span>
+                                                            <span class="slot-date">11 Nov <small class="slot-year">2023</small></span>
                                                         </li>
                                                         <li>
                                                             <span>Tue</span>
-                                                            <span class="slot-date">12 Nov <small class="slot-year">2019</small></span>
+                                                            <span class="slot-date">12 Nov <small class="slot-year">2023</small></span>
                                                         </li>
                                                         <li>
                                                             <span>Wed</span>
-                                                            <span class="slot-date">13 Nov <small class="slot-year">2019</small></span>
+                                                            <span class="slot-date">13 Nov <small class="slot-year">2023</small></span>
                                                         </li>
                                                         <li>
                                                             <span>Thu</span>
-                                                            <span class="slot-date">14 Nov <small class="slot-year">2019</small></span>
+                                                            <span class="slot-date">14 Nov <small class="slot-year">2023</small></span>
                                                         </li>
                                                         <li>
                                                             <span>Fri</span>
-                                                            <span class="slot-date">15 Nov <small class="slot-year">2019</small></span>
+                                                            <span class="slot-date">15 Nov <small class="slot-year">2023</small></span>
                                                         </li>
                                                         <li>
                                                             <span>Sat</span>
-                                                            <span class="slot-date">16 Nov <small class="slot-year">2019</small></span>
+                                                            <span class="slot-date">16 Nov <small class="slot-year">2023</small></span>
                                                         </li>
                                                         <li>
                                                             <span>Sun</span>
-                                                            <span class="slot-date">17 Nov <small class="slot-year">2019</small></span>
+                                                            <span class="slot-date">17 Nov <small class="slot-year">2023</small></span>
                                                         </li>
                                                         <li class="right-arrow">
                                                             <a href="#">

@@ -177,7 +177,7 @@
                                                     <span class="d-inline-block average-rating">35</span>
                                                 </div>
                                                 <div class="clinic-details">
-                                                    <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Newyork, USA</p>
+                                                    <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Tokyo, Japan</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -186,7 +186,7 @@
                                         <div class="booking-summary">
                                             <div class="booking-item-wrap">
                                                 <ul class="booking-date">
-                                                    <li>Date <span>16 Nov 2019</span></li>
+                                                    <li>Date <span>16 Nov 2023</span></li>
                                                     <li>Time <span>10:00 AM</span></li>
                                                 </ul>
                                                 <ul class="booking-fee">

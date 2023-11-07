@@ -82,14 +82,14 @@
                                     <li>
                                         <nuxt-link to="/doctor/chatdoctor">
                                             <i class="fas fa-comments"></i>
-                                            <span>Message</span>
+                                            <span>Chat</span>
                                             <small class="unread-msg">18</small>
                                         </nuxt-link>
                                     </li>
                                     <li>
                                         <nuxt-link to="/doctor/profilesettings">
                                             <i class="fas fa-user-cog"></i>
-                                            <span>Profile Settings</span>
+                                            <span>My Profile</span>
                                         </nuxt-link>
                                     </li>
                                     <li>
@@ -143,11 +143,11 @@
                                                     <nuxt-link to="/doctor/patientprofile" class="avatar avatar-sm mr-2">
                                                         <img class="avatar-img rounded-circle" src="~/assets/img/patients/patient.jpg" alt="User Image">
                                                     </nuxt-link>
-                                                    <nuxt-link to="/doctor/patientprofile">Richard Wilson <span>#PT0016</span></nuxt-link>
+                                                    <nuxt-link to="/doctor/patientprofile">Takeo Fukuda <span>#PT0016</span></nuxt-link>
                                                 </h2>
                                             </td>
                                             <td>$450</td>
-                                            <td>14 Nov 2019</td>
+                                            <td>14 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -172,7 +172,7 @@
                                                 </h2>
                                             </td>
                                             <td>$200</td>
-                                            <td>13 Nov 2019</td>
+                                            <td>13 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -197,7 +197,7 @@
                                                 </h2>
                                             </td>
                                             <td>$100</td>
-                                            <td>12 Nov 2019</td>
+                                            <td>12 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -222,7 +222,7 @@
                                                 </h2>
                                             </td>
                                             <td>$350</td>
-                                            <td>11 Nov 2019</td>
+                                            <td>11 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -247,7 +247,7 @@
                                                 </h2>
                                             </td>
                                             <td>$275</td>
-                                            <td>10 Nov 2019</td>
+                                            <td>10 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -272,7 +272,7 @@
                                                 </h2>
                                             </td>
                                             <td>$600</td>
-                                            <td>9 Nov 2019</td>
+                                            <td>9 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -297,7 +297,7 @@
                                                 </h2>
                                             </td>
                                             <td>$50</td>
-                                            <td>8 Nov 2019</td>
+                                            <td>8 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -322,7 +322,7 @@
                                                 </h2>
                                             </td>
                                             <td>$400</td>
-                                            <td>7 Nov 2019</td>
+                                            <td>7 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -347,7 +347,7 @@
                                                 </h2>
                                             </td>
                                             <td>$550</td>
-                                            <td>6 Nov 2019</td>
+                                            <td>6 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">
@@ -372,7 +372,7 @@
                                                 </h2>
                                             </td>
                                             <td>$100</td>
-                                            <td>5 Nov 2019</td>
+                                            <td>5 Nov 2023</td>
                                             <td class="text-right">
                                                 <div class="table-action">
                                                     <a href="#" class="btn btn-sm bg-info-light">

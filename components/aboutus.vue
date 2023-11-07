@@ -27,7 +27,7 @@
                         <!-- <div class="date">
                             <ul>
                                 <li><span>Category :</span> Heart Surgery</li>
-                                <li><span>Date :</span> April 20, 2019</li>
+                                <li><span>Date :</span> April 20, 2023</li>
                                 <li><span>Client :</span> Suke Agency</li>
                                 <li><span>Ags :</span> Typo</li>
                             </ul>

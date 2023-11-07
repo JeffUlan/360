@@ -38,7 +38,7 @@
                                             <div class="col-md-6">
                                                 <p class="invoice-details">
                                                     <strong>Order:</strong> #00124 <br>
-                                                    <strong>Issued:</strong> 20/07/2019
+                                                    <strong>Issued:</strong> 20/07/2023
                                                 </p>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@
                                                     <p class="invoice-details invoice-details-two">
                                                         Dr. Darren Elder <br>
                                                         806  Twin Willow Lane, Old Forge,<br>
-                                                        Newyork, USA <br>
+                                                        Tokyo, Japan <br>
                                                     </p>
                                                 </div>
                                             </div>
@@ -61,9 +61,9 @@
                                                 <div class="invoice-info invoice-info2">
                                                     <strong class="customer-text">Invoice To</strong>
                                                     <p class="invoice-details">
-                                                        Walter Roberson <br>
-                                                        299 Star Trek Drive, Panama City, <br>
-                                                        Florida, 32405, USA <br>
+                                                        SunshineOxygen <br>
+                                                        VAT Nº B05328778 <br>
+                                                        carretera de Camos 95, 17834 Camos, Girona (Spain) <br>
                                                     </p>
                                                 </div>
                                             </div>
@@ -145,8 +145,10 @@
                                     
                                     <!-- Invoice Information -->
                                     <div class="other-info">
-                                        <h4>Other information</h4>
-                                        <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dictum ligula, cursus blandit risus. Maecenas eget metus non tellus dignissim aliquam ut a ex. Maecenas sed vehicula dui, ac suscipit lacus. Sed finibus leo vitae lorem interdum, eu scelerisque tellus fermentum. Curabitur sit amet lacinia lorem. Nullam finibus pellentesque libero.</p>
+                                        <h4>LEGAL DISCLAIMER</h4>
+                                        <p class="text-muted mb-0">This Invoice is Issued by SunshineOxygen B05328778.<br>Disclaimer:<br>This invoice is issued by SunshineOxygen B05328778 ("SunshineOxygen") to [User's Name/HealthTech Platform] ("User") for the provision of goods, services, or products. Please read this disclaimer carefully.</p>
+                                        <p class="text-muted mb-0">General Information:</p>
+                                        <p class="text-muted mb-0">SunshineOxygen is a provider of health-related products and services.&nbsp;User is a customer of SunshineOxygen or a user of the HealthTech Platform.</p>
                                     </div>
                                     <!-- /Invoice Information -->
                                     

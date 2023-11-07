@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <nuxt-link class="dropdown-item" to="/doctor/doctordashboard">Dashboard</nuxt-link>
-                        <nuxt-link class="dropdown-item" to="/doctor/profilesettings">Profile Settings</nuxt-link>
+                        <nuxt-link class="dropdown-item" to="/doctor/profilesettings">My Profile</nuxt-link>
                         <nuxt-link class="dropdown-item" to="/doctor/signin">Logout</nuxt-link>
                     </div>
                 </li>

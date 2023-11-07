@@ -33,10 +33,10 @@ Version      : 1.0
 24. Patient Profile
 25. Add Billing
 26. Chat
-27. Doctor Profile Settings
+27. Doctor My Profiles
 28. Calendar
 29. Patient Dashboard
-30. Profile Settings
+30. My Profiles
 31. Appoitment List
 32. Reviews
 33. Voice call
@@ -4756,7 +4756,7 @@ html.menu-opened body {
 }
 
 /*-----------------
-	27. Doctor Profile Settings
+	27. Doctor My Profiles
 -----------------------*/
 
 .profile-image img {
@@ -5118,7 +5118,7 @@ html.menu-opened body {
 }
 
 /*-----------------
-	30. Profile Settings
+	30. My Profiles
 -----------------------*/
 
 .change-avatar {

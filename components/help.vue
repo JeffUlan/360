@@ -27,7 +27,7 @@
                         <div class="date">
                             <ul>
                                 <li><span>Category :</span> Heart Surgery</li>
-                                <li><span>Date :</span> April 20, 2019</li>
+                                <li><span>Date :</span> April 20, 2023</li>
                                 <li><span>Client :</span> Suke Agency</li>
                                 <li><span>Ags :</span> Typo</li>
                             </ul>
@@ -47,32 +47,6 @@
                             <br>Whether it's specialized treatment, diagnostics, or preventive care, we are dedicated to your health journey. 
                             <br>At My Doctor IN-HOME, we aim to be your trusted partner in healthcare, providing you with the expertise, personalized service, and technology you deserve. 
                             Explore our healthcare centers and take the first step toward a healthier you.</p>
-                        </div>
-                        <div class="body-text">
-                            <h3>Privacy Policy</h3>
-                            <p>Privacy Policy</p> 
-                            <p>Effective Date 1st of January 2023</p>
-                            <p>This Privacy Policy explains how My Doctor IN-HOME ("we," "us," or "our") collects, uses, and protects your personal information. We take your privacy seriously and are committed to safeguarding your data.</p> 
-                            <p>Information We Collect</p>
-                            <p>We collect the following types of information</p>
-                            <p>Personal Information: 
-                            <br>This includes your name, contact information, and other details required for identification and communication.
-                            <br>Health Information: 
-                            <br>To provide telehealth services, we may collect medical history, records, and other health-related data.
-                            <br>Technical Information: 
-                            <br>This includes your IP address, browser type, and device information for site functionality and security.</p>
-                            <p>We implement security measures to protect your information from unauthorized access, disclosure, and misuse.</p>
-                            <p>Third-Party Disclosure</p>
-                            <p>We do not sell, trade, or otherwise transfer your data to third parties, except as required by law or as necessary for healthcare providers involved in your care.</p>
-                            <p>Cookies and Analytics</p>
-                            <p>We use cookies and analytics tools to enhance your experience on our site and collect data for improvement.</p>
-                            <p>Your Choices </p>
-                            <p>You can manage your data preferences, request access to your information, and update your account details.</p>
-                            <p>Contact Us</p>
-                            <p>If you have questions or concerns about our privacy policy or data practices, please contact us at hello@sunshineoxygen.com.</p>
-                            <p> Changes to this Policy</p>
-                            <p>We reserve the right to update this policy as needed. Please check this page for any updates.</p>
-                            <p>By using our telehealth platform, you agree to our Privacy Policy.</p>
                         </div>
                         <div class="body-text">
                             <h3>Legal Information</h3>
@@ -99,30 +73,6 @@
                             <p>10. Governing Law</p>
                             <p>This Disclaimer is governed by the laws of GDPR, HIPAA, SOC2 and ISO 27001, and any disputes arising under this Disclaimer shall be subject to the exclusive jurisdiction of the courts in Spain.</p>
                             <p>By accessing and using our telehealth platform, both doctors and patients acknowledge that they have read and understood this Disclaimer and agree to its terms.</p>
-                        </div>
-                        <div class="body-text">
-                            <h3>Cookies Policy</h3>
-                            <p>Cookie Usage Disclaimer</p>
-                            <p>1. Introduction</p>
-                            <p>This Cookie Usage Disclaimer ("Disclaimer") outlines how My Doctor IN-HOME ("we," "us," or "our") uses cookies while adhering to stringent data protection regulations such as GDPR, SOC 2, HIPAA, and ISO 27001, and quality assurance protocols. By accessing our platform, you agree to the terms and conditions specified in this Disclaimer.</p>
-                            <p>2. What Are Cookies?</p>
-                            <p>Cookies are small text files that are stored on your computer or mobile device when you visit a website. They serve various purposes, including enhancing user experience, maintaining preferences, and aiding in the analysis of site usage.</p>
-                            <p>3. Cookie Usage for Compliance and Quality Assurance</p>
-                            <p>Our use of cookies aligns with strict data protection regulations and quality assurance protocols. Cookies are employed to:</p>
-                            <p>Improve Platform Performance: Cookies are instrumental in optimizing the performance and functionality of our telehealth platform, ensuring an efficient and secure user experience in accordance with GDPR, SOC 2, HIPAA, and ISO 27001 requirements.</p>
-                            <p>Personalize Your Experience: Cookies retain your settings and preferences, conforming to data protection standards, for a tailored and user-friendly experience.</p>
-                            <p>Analytics: Cookies, in compliance with regulatory guidelines, are utilized to collect data on user interactions with our platform, contributing to content enhancement and overall quality assurance.</p>
-                            <p>4. Managing Cookies</p>
-                            <p>You maintain control over cookies and can adjust settings within most web browsers to block or delete cookies. However, it is important to note that restricting cookies may affect the functionality of our platform.</p>
-                            <p>5. Consent</p>
-                            <p>By using our telehealth platform, you acknowledge and consent to the utilization of cookies as outlined in this Disclaimer, in full compliance with GDPR, SOC 2, HIPAA, ISO 27001, and quality assurance protocols.</p>
-                            <p>6. Changes to this Disclaimer</p>
-                            <p>We reserve the right to update this Disclaimer as needed, with any revisions being posted on our platform.</p>
-                            <p>7. Contact Information</p>
-                            <p>For inquiries or concerns regarding cookie usage, please reach out to us at hello@sunshineoxygen.com</p>
-                            <p>8. Governing Law</p>
-                            <p>This Disclaimer is governed by the laws of Spain, with any disputes arising under this Disclaimer subject to the exclusive jurisdiction of the courts in Spain.</p>
-                            <p>By accessing and using our telehealth platform, you demonstrate that you have read and comprehended this Disclaimer and consent to its terms.</p>
                         </div>
                         <div class="body-text">
                             <h3>Customer Support Service</h3>

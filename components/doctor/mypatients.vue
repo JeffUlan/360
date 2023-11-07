@@ -82,14 +82,14 @@
                                     <li>
                                         <nuxt-link to="/doctor/chatdoctor">
                                             <i class="fas fa-comments"></i>
-                                            <span>Message</span>
+                                            <span>Chat</span>
                                             <small class="unread-msg">18</small>
                                         </nuxt-link>
                                     </li>
                                     <li>
                                         <nuxt-link to="/doctor/profilesettings">
                                             <i class="fas fa-user-cog"></i>
-                                            <span>Profile Settings</span>
+                                            <span>My Profile</span>
                                         </nuxt-link>
                                     </li>
                                     <li>
@@ -129,7 +129,7 @@
                                                 <img src="~/assets/img/patients/patient.jpg" alt="User Image">
                                             </nuxt-link>
                                             <div class="profile-det-info">
-                                                <h3><nuxt-link to="/doctor/patientprofile">Richard Wilson</nuxt-link></h3>
+                                                <h3><nuxt-link to="/doctor/patientprofile">Takeo Fukuda</nuxt-link></h3>
                                                 
                                                 <div class="patient-details">
                                                     <h5><b>Patient ID :</b> P0016</h5>

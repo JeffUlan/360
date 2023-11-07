@@ -7,10 +7,10 @@
                     <nav aria-label="breadcrumb" class="page-breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><nuxt-link to="/doctor/doctordashboard">Home</nuxt-link></li>
-                            <li class="breadcrumb-item active" aria-current="page">Edit Prescription</li>
+                            <li class="breadcrumb-item active" aria-current="page">Patient</li>
                         </ol>
                     </nav>
-                    <h2 class="breadcrumb-title">Add Prescription</h2>
+                    <h2 class="breadcrumb-title">Prescription</h2>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                 <div class="col-md-7 col-lg-8 col-xl-9">
                     <div class="card">
                         <div class="card-header">
-                            <h4 class="card-title mb-0">Edit Prescription</h4>
+                            <h4 class="card-title mb-0">Prescription</h4>
                         </div>
                         <div class="card-body">
                             <div class="row">
@@ -70,17 +70,11 @@
                                 </div>
                                 <div class="col-sm-6 text-sm-right">
                                     <div class="billing-info">
-                                        <h4 class="d-block">1 November 2023</h4>
-                                        <span class="d-block text-muted">#INV0001</span>
+                                        <h4 class="d-block">14 November 2023</h4>
+                                        <span class="d-block text-muted">Prescription1</span>
                                     </div>
                                 </div>
                             </div>
-                            
-                            <!-- Add Item -->
-                            <div class="add-more-item text-right">
-                                <a href="#"><i class="fa fa-plus-circle"></i> Add More</a>
-                            </div>
-                            <!-- /Add Item -->
                             
                             <!-- Prescription Item -->
                             <div class="card card-table">
@@ -99,18 +93,18 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <input class="form-control" value="Amoxapine" type="text">
+                                                    <input class="form-control" value="Amoxapine" type="text" disabled>
                                                 </td>
                                                 <td>
-                                                    <input class="form-control" type="text" value="2">
+                                                    <input class="form-control" type="text" value="2" disabled>
                                                 </td>
                                                 <td>
-                                                    <input class="form-control" value="2 Days" type="text">
+                                                    <input class="form-control" value="1" type="text" disabled>
                                                 </td>
                                                 <td>
                                                     <div class="form-check form-check-inline">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox"> Morning
+                                                            <input class="form-check-input" type="checkbox" checked> Morning
                                                         </label>
                                                     </div>
                                                     <div class="form-check form-check-inline">
@@ -120,7 +114,7 @@
                                                     </div>
                                                     <div class="form-check form-check-inline">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox"> Evening
+                                                            <input class="form-check-input" type="checkbox" checked> Evening
                                                         </label>
                                                     </div>
                                                     <div class="form-check form-check-inline">
@@ -128,20 +122,17 @@
                                                             <input class="form-check-input" type="checkbox"> Night
                                                         </label>
                                                     </div>
-                                                </td>
-                                                <td>
-                                                    <a href="#" class="btn bg-danger-light trash"><i class="far fa-trash-alt"></i></a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <input class="form-control" type="text" value="Benazepril">
+                                                    <input class="form-control" type="text" value="Benazepril" disabled>
                                                 </td>
                                                 <td>
-                                                    <input class="form-control" type="text" value="2">
+                                                    <input class="form-control" type="text" value="2" disabled>
                                                 </td>
                                                 <td>
-                                                    <input class="form-control" value="1 Days" type="text">
+                                                    <input class="form-control" value="2" type="text" disabled>
                                                 </td>
                                                 <td>
                                                     <div class="form-check form-check-inline">
@@ -151,7 +142,7 @@
                                                     </div>
                                                     <div class="form-check form-check-inline">
                                                         <label class="form-check-label">
-                                                            <input class="form-check-input" type="checkbox"> Afternoon
+                                                            <input class="form-check-input" type="checkbox" checked> Afternoon
                                                         </label>
                                                     </div>
                                                     <div class="form-check form-check-inline">
@@ -164,9 +155,6 @@
                                                             <input class="form-check-input" type="checkbox"> Night
                                                         </label>
                                                     </div>
-                                                </td>
-                                                <td>
-                                                    <a href="#" class="btn bg-danger-light trash"><i class="far fa-trash-alt"></i></a>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -181,7 +169,7 @@
                                 <div class="col-md-12 text-right">
                                     <div class="signature-wrap">
                                         <div class="signature">
-                                            Click here to sign
+                                            <img src="/img/prescription_sign.png" class="sign-prescription">
                                         </div>
                                         <div class="sign-name">
                                             <p class="mb-0">( Dr. Darren Elder )</p>
@@ -196,8 +184,8 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="submit-section">
-                                        <button type="submit" class="btn btn-primary submit-btn">Save</button>
-                                        <button type="reset" class="btn btn-secondary submit-btn">Clear</button>
+                                        <nuxt-link to="/patient/patientsearchdoctor" class="btn btn-primary submit-btn fw">To Pharmacist</nuxt-link>
+                                        <nuxt-link to="/patient/patientprescriptioncalendar" class="btn btn-primary submit-btn fw">Calendar</nuxt-link>
                                     </div>
                                 </div>
                             </div>
@@ -214,6 +202,12 @@
     <!-- /Page Content -->
 </template>
 
-<style>
-
+<style scoped>
+.fw{
+    color:white;
+}
+.sign-prescription{
+    width:216px;
+    height:80px;
+}
 </style>

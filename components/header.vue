@@ -49,7 +49,7 @@
                         <nuxt-link to="/doctor/signin"><i class="icofont icofont-doctor size-xlarge"></i>&nbsp;I am a Doctor </nuxt-link>
                     </li>
                     <li class="active">
-                        <nuxt-link to="/doctor/signin"><i class="icofont icofont-doctor size-xlarge"></i>&nbsp;I am a pharmacist </nuxt-link>
+                        <nuxt-link to="/doctor/signin"><i class="icofont icofont-doctor size-xlarge"></i>&nbsp;I am a Pharmacist </nuxt-link>
                     </li>
                     <li class="nav-item dropdown has-arrow logged-item active">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -76,9 +76,9 @@
                     <div class="header-contact-detail mr-10 drop-down">
                         <select class="form-control select" name="options">
                             <option class="en" value="en" style="background-image:url('/img/flags/gb.png');">English</option>
-                            <option class="sp" value="sp" style="background-image:url('/img/flags/sp.png');">Spanish</option>
                             <option class="ar" value="ar" style="background-image:url('/img/flags/ar.png');">Arab</option>
                             <option class="fr" value="fr" style="background-image:url('/img/flags/fr.png');">French</option>
+                            <option class="sp" value="sp" style="background-image:url('/img/flags/sp.png');">Spanish</option>
                         </select>
                     </div>
                     <div class="header-contact-img">

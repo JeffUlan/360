@@ -82,14 +82,14 @@
                                     <li>
                                         <nuxt-link to="/doctor/chatdoctor">
                                             <i class="fas fa-comments"></i>
-                                            <span>Message</span>
+                                            <span>Chat</span>
                                             <small class="unread-msg">18</small>
                                         </nuxt-link>
                                     </li>
                                     <li>
                                         <nuxt-link to="/doctor/profilesettings">
                                             <i class="fas fa-user-cog"></i>
-                                            <span>Profile Settings</span>
+                                            <span>My Profile</span>
                                         </nuxt-link>
                                     </li>
                                     <li>
@@ -129,7 +129,7 @@
                                             <div class="dash-widget dct-border-rht">
                                                 <div class="circle-bar circle-bar1">
                                                     <div class="circle-graph1" data-percent="75">
-                                                        <img src="~/assets/img/icon-01.png" class="img-fluid" alt="patient">
+                                                        <img src="/img/icon-01.png" class="img-fluid" alt="patient">
                                                     </div>
                                                 </div>
                                                 <div class="dash-widget-info">
@@ -144,7 +144,7 @@
                                             <div class="dash-widget dct-border-rht">
                                                 <div class="circle-bar circle-bar2">
                                                     <div class="circle-graph2" data-percent="65">
-                                                        <img src="~/assets/img/icon-02.png" class="img-fluid" alt="Patient">
+                                                        <img src="/img/icon-02.png" class="img-fluid" alt="Patient">
                                                     </div>
                                                 </div>
                                                 <div class="dash-widget-info">
@@ -159,7 +159,7 @@
                                             <div class="dash-widget">
                                                 <div class="circle-bar circle-bar3">
                                                     <div class="circle-graph3" data-percent="50">
-                                                        <img src="~/assets/img/icon-03.png" class="img-fluid" alt="Patient">
+                                                        <img src="/img/icon-03.png" class="img-fluid" alt="Patient">
                                                     </div>
                                                 </div>
                                                 <div class="dash-widget-info">
@@ -214,7 +214,7 @@
                                                                 <td>
                                                                     <h2 class="table-avatar">
                                                                         <nuxt-link to="/doctor/patientprofile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="~/assets/img/patients/patient.jpg" alt="User Image"></nuxt-link>
-                                                                        <nuxt-link to="/doctor/patientprofile">Richard Wilson <span>#PT0016</span></nuxt-link>
+                                                                        <nuxt-link to="/doctor/patientprofile">Takeo Fukuda <span>#PT0016</span></nuxt-link>
                                                                     </h2>
                                                                 </td>
                                                                 <td>11 Nov 2019 <span class="d-block text-info">10.00 AM</span></td>
@@ -568,4 +568,15 @@
     </div>		
     <!-- /Page Content -->
 </template>
-<script></script>
+<script>
+export default {
+    name: 'doctordashboard',
+    components: {     
+    },
+    mounted() {
+        $('.circle-graph1').html('<img src="/img/icon-01.png" class="img-fluid" alt="patient">');
+        $('.circle-graph2').html('<img src="/img/icon-02.png" class="img-fluid" alt="patient">');
+        $('.circle-graph3').html('<img src="/img/icon-03.png" class="img-fluid" alt="patient">');
+    }
+}
+</script>

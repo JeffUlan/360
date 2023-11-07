@@ -33,10 +33,10 @@
                                         <img src="~/assets/img/patients/patient.jpg" alt="User Image">
                                     </nuxt-link>
                                     <div class="profile-det-info">
-                                        <h3><nuxt-link to="/doctor/patientprofile">Richard Wilson</nuxt-link></h3>
+                                        <h3><nuxt-link to="/doctor/patientprofile">Takeo Fukuda</nuxt-link></h3>
                                         <div class="patient-details">
                                             <h5><b>Patient ID :</b> PT0016</h5>
-                                            <h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Newyork, USA</h5>
+                                            <h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Tokyo, Japan</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -65,12 +65,12 @@
                                     <div class="biller-info">
                                         <h4 class="d-block">Dr. Darren Elder</h4>
                                         <span class="d-block text-sm text-muted">Dentist</span>
-                                        <span class="d-block text-sm text-muted">Newyork, United States</span>
+                                        <span class="d-block text-sm text-muted">Manama, Bahrain</span>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 text-sm-right">
                                     <div class="billing-info">
-                                        <h4 class="d-block">1 November 2019</h4>
+                                        <h4 class="d-block">1 November 2023</h4>
                                         <span class="d-block text-muted">#INV0001</span>
                                     </div>
                                 </div>

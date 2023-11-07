@@ -82,14 +82,14 @@
                                     <li>
                                         <nuxt-link to="/doctor/chatdoctor">
                                             <i class="fas fa-comments"></i>
-                                            <span>Message</span>
+                                            <span>Chat</span>
                                             <small class="unread-msg">18</small>
                                         </nuxt-link>
                                     </li>
                                     <li>
                                         <nuxt-link to="/doctor/profilesettings">
                                             <i class="fas fa-user-cog"></i>
-                                            <span>Profile Settings</span>
+                                            <span>My Profile</span>
                                         </nuxt-link>
                                     </li>
                                     <li>
@@ -128,10 +128,10 @@
                                     <img src="~/assets/img/patients/patient.jpg" alt="User Image">
                                 </nuxt-link>
                                 <div class="profile-det-info">
-                                    <h3><nuxt-link to="/doctor/patientprofile">Richard Wilson</nuxt-link></h3>
+                                    <h3><nuxt-link to="/doctor/patientprofile">Takeo Fukuda</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 14 Nov 2019, 10.00 AM</h5>
-                                        <h5><i class="fas fa-map-marker-alt"></i> Newyork, United States</h5>
+                                        <h5><i class="far fa-clock"></i> 14 Nov 2023, 10.00 AM</h5>
+                                        <h5><i class="fas fa-map-marker-alt"></i> Manama, Bahrain</h5>
                                         <h5><i class="fas fa-envelope"></i> richard@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 923 782 4575</h5>
                                     </div>
@@ -160,7 +160,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Charlene Reed </nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 12 Nov 2019, 5.00 PM</h5>
+                                        <h5><i class="far fa-clock"></i> 12 Nov 2023, 5.00 PM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> North Carolina, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> charlenereed@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 828 632 9170</h5>
@@ -191,7 +191,7 @@
                                     <h3><nuxt-link to="/doctor/patientprofile">Travis Trimble</nuxt-link></h3>
                                     
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 11 Nov 2019, 8.00 PM</h5>
+                                        <h5><i class="far fa-clock"></i> 11 Nov 2023, 8.00 PM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> Maine, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> travistrimble@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 207 729 9974</h5>
@@ -222,8 +222,8 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Carl Kelly</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 9 Nov 2019, 9.00 AM</h5>
-                                        <h5><i class="fas fa-map-marker-alt"></i> Newyork, United States</h5>
+                                        <h5><i class="far fa-clock"></i> 9 Nov 2023, 9.00 AM</h5>
+                                        <h5><i class="fas fa-map-marker-alt"></i> Manama, Bahrain</h5>
                                         <h5><i class="fas fa-envelope"></i> carlkelly@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 260 724 7769</h5>
                                     </div>
@@ -252,7 +252,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Michelle Fairfax</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 9 Nov 2019, 1.00 PM</h5>
+                                        <h5><i class="far fa-clock"></i> 9 Nov 2023, 1.00 PM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> Indiana, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> michellefairfax@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 504 368 6874</h5>
@@ -282,7 +282,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Gina Moore</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 8 Nov 2019, 3.00 PM</h5>
+                                        <h5><i class="far fa-clock"></i> 8 Nov 2023, 3.00 PM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> Florida, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> ginamoore@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 954 820 7887</h5>
@@ -312,7 +312,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Elsie Gilley</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 6 Nov 2019, 9.00 AM</h5>
+                                        <h5><i class="far fa-clock"></i> 6 Nov 2023, 9.00 AM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> Kentucky, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> elsiegilley@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 315 384 4562</h5>
@@ -342,7 +342,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Joan Gardner</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 5 Nov 2019, 12.00 PM</h5>
+                                        <h5><i class="far fa-clock"></i> 5 Nov 2023, 12.00 PM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> California, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> joangardner@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 707 2202 603</h5>
@@ -372,7 +372,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Daniel Griffing</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 5 Nov 2019, 7.00 PM</h5>
+                                        <h5><i class="far fa-clock"></i> 5 Nov 2023, 7.00 PM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> New Jersey, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> danielgriffing@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 973 773 9497</h5>
@@ -402,7 +402,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Walter Roberson</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 4 Nov 2019, 10.00 AM</h5>
+                                        <h5><i class="far fa-clock"></i> 4 Nov 2023, 10.00 AM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> Florida, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> walterroberson@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 850 358 4445</h5>
@@ -432,7 +432,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Robert Rhodes</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 4 Nov 2019, 11.00 AM</h5>
+                                        <h5><i class="far fa-clock"></i> 4 Nov 2023, 11.00 AM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> California, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> robertrhodes@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 858 259 5285</h5>
@@ -462,7 +462,7 @@
                                 <div class="profile-det-info">
                                     <h3><nuxt-link to="/doctor/patientprofile">Harry Williams</nuxt-link></h3>
                                     <div class="patient-details">
-                                        <h5><i class="far fa-clock"></i> 3 Nov 2019, 6.00 PM</h5>
+                                        <h5><i class="far fa-clock"></i> 3 Nov 2023, 6.00 PM</h5>
                                         <h5><i class="fas fa-map-marker-alt"></i> Colorado, United States</h5>
                                         <h5><i class="fas fa-envelope"></i> harrywilliams@example.com</h5>
                                         <h5 class="mb-0"><i class="fas fa-phone"></i> +1 303 607 7075</h5>
@@ -508,7 +508,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <span class="title">#APT0001</span>
-                                        <span class="text">21 Oct 2019 10:00 AM</span>
+                                        <span class="text">21 Oct 2023 10:00 AM</span>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="text-right">
@@ -524,7 +524,7 @@
                         </li>
                         <li>
                             <span class="title">Confirm Date:</span>
-                            <span class="text">29 Jun 2019</span>
+                            <span class="text">29 Jun 2023</span>
                         </li>
                         <li>
                             <span class="title">Paid Amount</span>
