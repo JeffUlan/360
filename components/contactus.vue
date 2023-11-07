@@ -343,4 +343,17 @@ body, button, input, select, optgroup, textarea {
 .color-white{
     color:white;
 }
+.section {
+    padding: 100px 0;
+}
+.overlay:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #1a76d1;
+    opacity: 0.8;
+}
 </style>
