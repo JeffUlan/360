@@ -21,7 +21,7 @@
                     <div class="inner-content">
                         <div class="image-slider">
                             <div class="pf-details-slider">
-                                <img src="/img/aboutus.jpg" alt="#">
+                                <img src="/img/aboutus.jpg" alt="#" style="max-width:100%;">
                             </div>
                         </div>
                         <!-- <div class="date">
@@ -40,7 +40,7 @@
                         </div>
 						<div class="image-slider">
                             <div class="pf-details-slider">
-                                <img src="/img/awards.png" alt="#">
+                                <img src="/img/awards.png" alt="#" style="max-width:100%;">
                             </div>
                         </div>
                         <div class="body-text">
@@ -91,7 +91,8 @@
     </section>
     <!-- End Portfolio Details Area -->
 </template>
-<style scoped>
+<style>
+
 .font-blue{
     color:#1a76d1;
 }
