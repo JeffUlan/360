@@ -23,21 +23,23 @@
                                             
                                             <!-- Register Form -->
                                             <form action="#">
-                                                <div class="form-group form-focus">
-                                                    <input type="text" class="form-control floating">
-                                                    <label class="focus-label">Name</label>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control floating" placeholder="Full Name">
                                                 </div>
-                                                <div class="form-group form-focus">
-                                                    <input type="text" class="form-control floating">
-                                                    <label class="focus-label">Mobile Number</label>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control floating" placeholder="Email">
                                                 </div>
-                                                <div class="form-group form-focus">
-                                                    <input type="text" class="form-control floating">
-                                                    <label class="focus-label">License ID</label>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control floating" placeholder="Phone Number">
                                                 </div>
-                                                <div class="form-group form-focus">
-                                                    <input type="password" class="form-control floating">
-                                                    <label class="focus-label">Create Password</label>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control floating" placeholder="License ID">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control floating" placeholder="Password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control floating" placeholder="Confirm Password">
                                                 </div>
                                                 <div class="text-right">
                                                     <nuxt-link to="/doctor/signin" class="forgot-link">Already have an account?</nuxt-link>

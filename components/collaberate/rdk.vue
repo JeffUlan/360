@@ -69,7 +69,7 @@
                                         <input type="checkbox" id="accept" class="w-a">
 								</div>
                                 <div class="col-lg-11 col-md-11 col-12">
-                                    <div class="form-group">
+                                    <div class="form-group mb-10">
 										<label for="accept">Check this box to request a Digital Kit to guide you through the enrollment process.</label>
 									</div>
                                 </div>
@@ -86,7 +86,7 @@
 								<div class="col-lg-12 col-md-12 col-12 ">
 									<div class="form-group">
 										<div class="button">
-											<button type="submit" class="btn f-right">Submit</button>
+											<button type="submit" class="btn f-right btn-primary submit-btn">Submit</button>
 										</div>
 									</div>
 								</div>
@@ -473,5 +473,8 @@ img, a, input, h1, h2, h3, h4, h5, h6 {
     padding: 25px;
     margin-bottom: 50px;
     background-color:white;
+}
+.mb-10{
+    margin-top:15px;
 }
 </style>

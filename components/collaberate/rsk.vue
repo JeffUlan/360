@@ -62,7 +62,7 @@
 								<div class="col-lg-12 col-md-12 col-12 ">
 									<div class="form-group">
 										<div class="button">
-											<button type="submit" class="btn f-right">Submit</button>
+											<button type="submit" class="btn f-right btn-primary submit-btn">Submit</button>
 										</div>
 									</div>
 								</div>

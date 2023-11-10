@@ -65,7 +65,7 @@
                                                 <div class="terms-accept">
                                                     <div class="custom-checkbox">
                                                         <input type="checkbox" id="EHR_accept">
-                                                        <label for="EHR_accept"> &nbsp;Are you agree to show your <a href="#">EHR</a> to this doctor?</label>
+                                                        <label for="EHR_accept"> &nbsp;I agree to show your <a href="#">EHR</a> to this doctor?</label>
                                                     </div>
                                                 </div>
                                                 <div class="exist-customer">Existing Customer? <a href="#">Click here to login</a></div>

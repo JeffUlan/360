@@ -23,25 +23,28 @@
                                             
                                             <!-- Register Form -->
                                             <form action="">
-                                                <div class="form-group form-focus">
-                                                    <input type="text" class="form-control floating">
-                                                    <label class="focus-label">Name</label>
+                                              <div class="form-group">
+                                                    <input type="text" class="form-control floating" placeholder="Full Name">
                                                 </div>
-                                                <div class="form-group form-focus">
-                                                    <input type="text" class="form-control floating">
-                                                    <label class="focus-label">Phone Number</label>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control floating" placeholder="Email">
                                                 </div>
-                                                <div class="form-group form-focus">
-                                                    <input type="password" class="form-control floating">
-                                                    <label class="focus-label">Create Password</label>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control floating" placeholder="Phone Number">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control floating" placeholder="Password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control floating" placeholder="Confirm Password">
                                                 </div>
                                                     <div class="text-left">
                                                         <input type="checkbox" id="terms_accept">
-                                                        <label for="terms_accept">&nbsp;Are you above 18 years old?</label>
+                                                        <label for="terms_accept">&nbsp;I am above 18 years old?</label>
                                                     </div>
                                                     <div class="text-left">
                                                         <input type="checkbox" id="policy_accept">
-                                                        <label for="terms_accept">&nbsp;Are you agree <nuxt-link to="/patient/Privacy" class="font-blue">Privacy Policy?</nuxt-link></label>
+                                                        <label for="terms_accept">&nbsp;I agree <nuxt-link to="/patient/Privacy" class="font-blue">Privacy Policy?</nuxt-link></label>
                                                     </div>
                                                     <div class="text-right">
                                                         <nuxt-link to="/patient/signin" class="forgot-link">Already have an account?</nuxt-link>

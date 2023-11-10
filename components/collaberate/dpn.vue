@@ -46,7 +46,7 @@
 								</div>
 								<div class="col-lg-3 col-md-3 col-12">
 									<div class="form-group">
-										<button type="submit" class="btn">upload</button>
+										<button type="submit" class="btn btn-primary submit-btn">upload</button>
 									</div>
 								</div>
                                 <div class="col-lg-12 col-md-12 col-12">
@@ -77,7 +77,7 @@
 								<div class="col-lg-12 col-md-12 col-12 ">
 									<div class="form-group">
 										<div class="button">
-											<button type="submit" class="btn f-right">Submit</button>
+											<button type="submit" class="btn f-right btn-primary submit-btn">Submit</button>
 										</div>
 									</div>
 								</div>

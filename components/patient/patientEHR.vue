@@ -480,9 +480,9 @@
                                             <div class="col-lg-12 col-md-12 col-12">
                                                 <div class="form-group">
                                                     <input type="checkbox" id="accept" class="w-a">
-                                                    <label for="accept">&nbsp;Are you agree to export uploaded Images and Pdf documents?</label><br>
+                                                    <label for="accept">&nbsp;I agree to export uploaded Images and Pdf documents?</label><br>
                                                     <input type="checkbox" id="accept" class="w-a">
-                                                    <label for="accept">&nbsp;Are you agree to share your EHR with MyDoctorATHOME ?</label>
+                                                    <label for="accept">&nbsp;I agree to share your EHR with MyDoctorATHOME ?</label>
                                                 </div>
                                             </div>
 
