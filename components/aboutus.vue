@@ -92,6 +92,10 @@
     <!-- End Portfolio Details Area -->
 </template>
 <style>
+img {
+    height: auto;
+    max-width: 100%;
+}
 
 .font-blue{
     color:#1a76d1;

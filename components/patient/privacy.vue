@@ -108,6 +108,10 @@
     <!-- End Portfolio Details Area -->
 </template>
 <style scoped>
+img {
+    height: auto;
+    max-width: 100%;
+}
 .font-blue{
     color:#1a76d1;
 }

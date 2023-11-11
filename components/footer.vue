@@ -37,7 +37,7 @@
 										<ul>
 											<li><a href="/help"><i class="fa fa-caret-right" aria-hidden="true"></i>Service</a></li>
 											<li><a href="/help"><i class="fa fa-caret-right" aria-hidden="true"></i>Financing</a></li>
-											<li><a href="/aboutus"><i class="fa fa-caret-right" aria-hidden="true"></i>Suggestion</a></li>
+											<li><a href="/help"><i class="fa fa-caret-right" aria-hidden="true"></i>Suggestion</a></li>
 											<li><a href="/help"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
 											<li><a href="/contactus"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>
 										</ul>
