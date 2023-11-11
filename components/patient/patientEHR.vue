@@ -238,15 +238,15 @@
                                                     </div>
                                                     <div class="upload-wrap">
                                                         <div class="upload-images">
-                                                            <img src="~/assets/img/features/feature-01.jpg" alt="Upload Image">
+                                                            <img src="/img/features/feature-01.jpg" alt="Upload Image">
                                                             <a href="javascript:void(0);" class="btn btn-icon btn-sm"><i class="far fa-trash-alt fw"></i></a>
                                                         </div>
                                                         <div class="upload-images">
-                                                            <img src="~/assets/img/features/feature-02.jpg" alt="Upload Image">
+                                                            <img src="/img/features/feature-02.jpg" alt="Upload Image">
                                                             <a href="javascript:void(0);" class="btn btn-icon btn-sm"><i class="far fa-trash-alt fw"></i></a>
                                                         </div>
                                                         <div class="upload-images">
-                                                            <img src="~/assets/img/features/feature-02.jpg" alt="Upload Image">
+                                                            <img src="/img/features/feature-02.jpg" alt="Upload Image">
                                                             <a href="javascript:void(0);" class="btn btn-icon btn-sm"><i class="far fa-trash-alt fw"></i></a>
                                                         </div>
                                                         <div class="signature-wrap upload-images">

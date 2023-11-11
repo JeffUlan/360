@@ -11,7 +11,7 @@
                                 <nav aria-label="breadcrumb" class="page-breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><nuxt-link to="/patient/patientdashboard">Home</nuxt-link></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Doctor Profile</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Patient</li>
                                     </ol>
                                 </nav>
                                 <h2 class="breadcrumb-title">Doctor Profile</h2>
@@ -49,23 +49,23 @@
                                                 <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Tokyo, Japan - <a href="javascript:void(0);">Get Directions</a></p>
                                                 <ul class="clinic-gallery">
                                                     <li>
-                                                        <a href="~/assets/img/features/feature-01.jpg" data-fancybox="gallery">
-                                                            <img src="~/assets/img/features/feature-01.jpg" alt="Feature">
+                                                        <a href="/img/features/feature-01.jpg" data-fancybox="gallery">
+                                                            <img src="/img/features/feature-01.jpg" alt="Feature">
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="~/assets/img/features/feature-02.jpg" data-fancybox="gallery">
-                                                            <img  src="~/assets/img/features/feature-02.jpg" alt="Feature Image">
+                                                        <a href="/img/features/feature-02.jpg" data-fancybox="gallery">
+                                                            <img  src="/img/features/feature-02.jpg" alt="Feature Image">
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="~/assets/img/features/feature-03.jpg" data-fancybox="gallery">
-                                                            <img src="~/assets/img/features/feature-03.jpg" alt="Feature">
+                                                        <a href="/img/features/feature-03.jpg" data-fancybox="gallery">
+                                                            <img src="/img/features/feature-03.jpg" alt="Feature">
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="~/assets/img/features/feature-04.jpg" data-fancybox="gallery">
-                                                            <img src="~/assets/img/features/feature-04.jpg" alt="Feature">
+                                                        <a href="/img/features/feature-04.jpg" data-fancybox="gallery">
+                                                            <img src="/img/features/feature-04.jpg" alt="Feature">
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -326,23 +326,23 @@
                                                             <h5 class="clinic-direction"> <i class="fas fa-map-marker-alt"></i> 2286  Sundown Lane, Austin, Texas 78749, USA <br><a href="javascript:void(0);">Get Directions</a></h5>
                                                             <ul>
                                                                 <li>
-                                                                    <nuxt-link to="~/assets/img/features/feature-01.jpg" data-fancybox="gallery2">
-                                                                        <img src="~/assets/img/features/feature-01.jpg" alt="Feature Image">
+                                                                    <nuxt-link to="/img/features/feature-01.jpg" data-fancybox="gallery2">
+                                                                        <img src="/img/features/feature-01.jpg" alt="Feature Image">
                                                                     </nuxt-link>
                                                                 </li>
                                                                 <li>
-                                                                    <nuxt-link to="~/assets/img/features/feature-02.jpg" data-fancybox="gallery2">
-                                                                        <img src="~/assets/img/features/feature-02.jpg" alt="Feature Image">
+                                                                    <nuxt-link to="/img/features/feature-02.jpg" data-fancybox="gallery2">
+                                                                        <img src="/img/features/feature-02.jpg" alt="Feature Image">
                                                                     </nuxt-link>
                                                                 </li>
                                                                 <li>
-                                                                    <nuxt-link to="~/assets/img/features/feature-03.jpg" data-fancybox="gallery2">
-                                                                        <img src="~/assets/img/features/feature-03.jpg" alt="Feature Image">
+                                                                    <nuxt-link to="/img/features/feature-03.jpg" data-fancybox="gallery2">
+                                                                        <img src="/img/features/feature-03.jpg" alt="Feature Image">
                                                                     </nuxt-link>
                                                                 </li>
                                                                 <li>
-                                                                    <nuxt-link to="~/assets/img/features/feature-04.jpg" data-fancybox="gallery2">
-                                                                        <img src="~/assets/img/features/feature-04.jpg" alt="Feature Image">
+                                                                    <nuxt-link to="/img/features/feature-04.jpg" data-fancybox="gallery2">
+                                                                        <img src="/img/features/feature-04.jpg" alt="Feature Image">
                                                                     </nuxt-link>
                                                                 </li>
                                                             </ul>
@@ -405,23 +405,23 @@
                                                             <p class="clinic-direction"> <i class="fas fa-map-marker-alt"></i> 2883  University Street, Seattle, Texas Washington, 98155 <br><a href="javascript:void(0);">Get Directions</a></p>
                                                             <ul>
                                                                 <li>
-                                                                    <nuxt-link to="~/assets/img/features/feature-01.jpg" data-fancybox="gallery2">
-                                                                        <img src="~/assets/img/features/feature-01.jpg" alt="Feature Image">
+                                                                    <nuxt-link to="/img/features/feature-01.jpg" data-fancybox="gallery2">
+                                                                        <img src="/img/features/feature-01.jpg" alt="Feature Image">
                                                                     </nuxt-link>
                                                                 </li>
                                                                 <li>
-                                                                    <nuxt-link to="~/assets/img/features/feature-02.jpg" data-fancybox="gallery2">
-                                                                        <img src="~/assets/img/features/feature-02.jpg" alt="Feature Image">
+                                                                    <nuxt-link to="/img/features/feature-02.jpg" data-fancybox="gallery2">
+                                                                        <img src="/img/features/feature-02.jpg" alt="Feature Image">
                                                                     </nuxt-link>
                                                                 </li>
                                                                 <li>
-                                                                    <nuxt-link to="~/assets/img/features/feature-03.jpg" data-fancybox="gallery2">
-                                                                        <img src="~/assets/img/features/feature-03.jpg" alt="Feature Image">
+                                                                    <nuxt-link to="/img/features/feature-03.jpg" data-fancybox="gallery2">
+                                                                        <img src="/img/features/feature-03.jpg" alt="Feature Image">
                                                                     </nuxt-link>
                                                                 </li>
                                                                 <li>
-                                                                    <nuxt-link to="~/assets/img/features/feature-04.jpg" data-fancybox="gallery2">
-                                                                        <img src="~/assets/img/features/feature-04.jpg" alt="Feature Image">
+                                                                    <nuxt-link to="/img/features/feature-04.jpg" data-fancybox="gallery2">
+                                                                        <img src="/img/features/feature-04.jpg" alt="Feature Image">
                                                                     </nuxt-link>
                                                                 </li>
                                                             </ul>

@@ -32,6 +32,9 @@
                                                 <div class="form-group">
                                                     <input type="text" class="form-control floating" placeholder="Phone Number">
                                                 </div>
+                                                <!-- <div class="form-group">
+                                                  <vue-phone-number-input v-model="phoneNumber"  @update="onUpdate" v-bind="vuePhone.props" ></vue-phone-number-input>
+                                                </div> -->
                                                 <div class="form-group">
                                                     <input type="password" class="form-control floating" placeholder="Password">
                                                 </div>

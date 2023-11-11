@@ -108,7 +108,11 @@ export default {
 }
 </script>
 <style scoped>
-
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 0 250px;
+}
 .nice-select {
     -webkit-tap-highlight-color: transparent;
     background-color: #fff;

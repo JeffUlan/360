@@ -107,6 +107,11 @@
 </template>
 <script></script>
 <style scoped>
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 0 250px;
+}
 .w-a{
     width:auto !important;
 }
