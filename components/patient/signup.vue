@@ -30,28 +30,51 @@
                                                     <input type="email" class="form-control floating" placeholder="Email">
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control floating" placeholder="Phone Number">
+                                                  <MazPhoneNumberInput
+                                                    :translations="{
+                                                      countrySelector: {
+                                                        placeholder: 'Country code',
+                                                        error: 'Choose country',
+                                                        searchPlaceholder: 'Search a country',
+                                                      },
+                                                      phoneInput: {
+                                                        placeholder: 'Phone number',
+                                                        example: 'Example:',
+                                                      },
+                                                      
+                                                    }"
+                                                    v-model="phoneNumber"  @update="onUpdate" v-bind="vuePhone.props"
+                                                  />
                                                 </div>
-                                                <!-- <div class="form-group">
-                                                  <vue-phone-number-input v-model="phoneNumber"  @update="onUpdate" v-bind="vuePhone.props" ></vue-phone-number-input>
-                                                </div> -->
                                                 <div class="form-group">
-                                                    <input type="password" class="form-control floating" placeholder="Password">
+                                                    <Password inputClass="form-control floating" style="display:flex !important;font-size: 14px !important;" placeholder="Password" inputStyle="font-size: 14px !important;padding: 6px 12px !important;" v-model="password" type="password"  :id="dynamicID()" clearable>
+                                                      <template #header>
+                                                        <h6>Password</h6>
+                                                      </template>
+                                                      <template #footer>
+                                                        <Divider />
+                                                        <p class="mt-2">Suggestions</p>
+                                                        <ul class="pl-2 ml-2 mt-0" style="line-height: 1.5">
+                                                          <li>At least one lowercase</li>
+                                                          <li>At least one uppercase</li>
+                                                          <li>At least one numeric</li>
+                                                          <li>Minimum 8 characters</li>
+                                                          <li>Maximum 14 characters</li>
+                                                        </ul>
+                                                      </template>
+                                                    </Password>
                                                 </div>
-                                                <div class="form-group">
-                                                    <input type="password" class="form-control floating" placeholder="Confirm Password">
+                                                <div class="text-left">
+                                                    <input type="checkbox" id="terms_accept">
+                                                    <label for="terms_accept">&nbsp;I am above 18 years old?</label>
                                                 </div>
-                                                    <div class="text-left">
-                                                        <input type="checkbox" id="terms_accept">
-                                                        <label for="terms_accept">&nbsp;I am above 18 years old?</label>
-                                                    </div>
-                                                    <div class="text-left">
-                                                        <input type="checkbox" id="policy_accept">
-                                                        <label for="terms_accept">&nbsp;I agree <nuxt-link to="/patient/Privacy" class="font-blue">Privacy Policy?</nuxt-link></label>
-                                                    </div>
-                                                    <div class="text-right">
-                                                        <nuxt-link to="/patient/signin" class="forgot-link">Already have an account?</nuxt-link>
-                                                    </div>
+                                                <div class="text-left">
+                                                    <input type="checkbox" id="policy_accept">
+                                                    <label for="terms_accept">&nbsp;I agree <nuxt-link to="/patient/Privacy" class="font-blue">Privacy Policy?</nuxt-link></label>
+                                                </div>
+                                                <div class="text-right">
+                                                    <nuxt-link to="/patient/signin" class="forgot-link">Already have an account?</nuxt-link>
+                                                </div>
                                                 <!-- <button class="btn btn-primary btn-block btn-lg login-btn" type="submit">Signup</button> -->
                                                 <nuxt-link to="/patient/signin" class="btn btn-primary btn-block btn-lg login-btn">Sigup</nuxt-link>
                                                 <div class="login-or">
@@ -87,6 +110,9 @@
 </template>
 
 <script>
+import MazPhoneNumberInput from 'maz-ui/components/MazPhoneNumberInput';
+import Password from 'primevue/password';
+
 export default {
   middleware:["is_authenticated"],
   data() {

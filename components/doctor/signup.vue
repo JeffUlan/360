@@ -30,16 +30,42 @@
                                                     <input type="email" class="form-control floating" placeholder="Email">
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control floating" placeholder="Phone Number">
+                                                <MazPhoneNumberInput
+                                                    :translations="{
+                                                      countrySelector: {
+                                                        placeholder: 'Country code',
+                                                        error: 'Choose country',
+                                                        searchPlaceholder: 'Search a country',
+                                                      },
+                                                      phoneInput: {
+                                                        placeholder: 'Phone number',
+                                                        example: 'Example:',
+                                                      },
+                                                      
+                                                    }"
+                                                    v-model="phoneNumber"  @update="onUpdate" v-bind="vuePhone.props"
+                                                  />
                                                 </div>
                                                 <div class="form-group">
                                                     <input type="text" class="form-control floating" placeholder="License ID">
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="password" class="form-control floating" placeholder="Password">
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="password" class="form-control floating" placeholder="Confirm Password">
+                                                    <Password inputClass="form-control floating" style="display:flex !important;font-size: 14px !important;" placeholder="Password" inputStyle="font-size: 14px !important;padding: 6px 12px !important;" v-model="password" type="password"  :id="dynamicID()" clearable>
+                                                      <template #header>
+                                                        <h6>Password</h6>
+                                                      </template>
+                                                      <template #footer>
+                                                        <Divider />
+                                                        <p class="mt-2">Suggestions</p>
+                                                        <ul class="pl-2 ml-2 mt-0" style="line-height: 1.5">
+                                                          <li>At least one lowercase</li>
+                                                          <li>At least one uppercase</li>
+                                                          <li>At least one numeric</li>
+                                                          <li>Minimum 8 characters</li>
+                                                          <li>Maximum 14 characters</li>
+                                                        </ul>
+                                                      </template>
+                                                    </Password>
                                                 </div>
                                                 <div class="text-right">
                                                     <nuxt-link to="/doctor/signin" class="forgot-link">Already have an account?</nuxt-link>
@@ -77,6 +103,87 @@
     </section>	
     <!-- /Page Content -->
 </template>
+
+<script>
+import MazPhoneNumberInput from 'maz-ui/components/MazPhoneNumberInput';
+import Password from 'primevue/password';
+
+export default {
+  middleware:["is_authenticated"],
+  data() {
+    return {
+      email: '',
+      password: '',
+      phoneNumber:'',
+      vuePhone: {
+        props: {
+          clearable: true,
+          fetchCountry: true,
+          preferredCountries: ["US", "GB"],
+          noExample: false,
+          borderRadius: 0,
+          translations: {
+            countrySelectorLabel: "Country code",
+            countrySelectorError: "Error",
+            phoneNumberLabel: "Enter your phone",
+            example: "Example:"
+          }
+        }
+      }
+    }
+  },
+  created() {
+
+  },
+  methods: {
+    onUpdate (payload) {
+      this.results = payload
+    },
+    dynamicID() { return 'dynamicID-' + Math.floor(Math.random() * Date.now().toString()); },
+    async onSubmit(){
+      if(!this.validateInputs()){
+        return;
+      }
+      this.$store.dispatch('authModule/register',{email:this.email,password:this.password,prefixPhoneNumber:this.results.countryCallingCode,phoneNumber:this.results.nationalNumber,type:"user"},)
+        .then(res=>{
+          this.$toast.add({severity:'success', summary: 'Success', detail: res, life: 3000})
+          setTimeout(() => {
+            this.$router.push("/patient/verification")
+          }, 2000);
+        }).catch(ex =>{
+        this.$toast.add({severity:'error', summary: 'Error', detail: ex, life: 3000})
+      })
+    },
+    validateInputs(){
+      if(this.email.trim() =='' || this.password.trim() == ''  ){
+        this.$toast.add({severity:'error', summary: 'Validation', detail: 'You need to fill all fields', life: 3000})
+        setTimeout(() => {
+        }, 3000);
+        return false;
+      }
+      if(!this.email.match(/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){
+        this.$toast.add({severity:'error', summary: 'Validation', detail: 'Email is not valid', life: 3000})
+        setTimeout(() => {
+        }, 3000);
+        return false;
+      }
+      if(this.password.length < 6 || this.password.length> 14){
+        this.$toast.add({severity:'error', summary: 'Validation', detail: 'Password must be minimum 6 characters, maximum 14 characters', life: 3000})
+        setTimeout(() => {
+        }, 3000);
+        return false;
+      }
+      if(!this.results.isValid){
+        this.$toast.add({severity:'error', summary: 'Validation', detail: 'Phone number is not valid.', life: 3000})
+        setTimeout(() => {
+        }, 3000);
+        return false;
+      }
+      return true;
+    },
+  }
+}
+</script>
 
 <style>
 .display-center{
