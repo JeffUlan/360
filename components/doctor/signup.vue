@@ -186,6 +186,12 @@ export default {
 </script>
 
 <style>
+.m-input-wrapper.--default-border[data-v-32fa5093] {
+    border: 1px solid #ced4da !important;
+}
+.maz-rounded {
+    border-radius: 0.25rem !important;
+}
 .display-center{
   justify-content: center;
   align-items: center;
