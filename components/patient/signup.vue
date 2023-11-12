@@ -47,7 +47,7 @@
                                                   />
                                                 </div>
                                                 <div class="form-group">
-                                                    <Password inputClass="form-control floating" style="display:flex !important;font-size: 14px !important;" placeholder="Password" inputStyle="font-size: 14px !important;padding: 6px 12px !important;" v-model="password" type="password"  :id="dynamicID()" clearable>
+                                                    <!-- <Password inputClass="form-control floating" style="display:flex !important;font-size: 14px !important;" placeholder="Password" inputStyle="font-size: 14px !important;padding: 6px 12px !important;" v-model="password" type="password"  :id="dynamicID()" clearable>
                                                       <template #header>
                                                         <h6>Password</h6>
                                                       </template>
@@ -62,7 +62,11 @@
                                                           <li>Maximum 14 characters</li>
                                                         </ul>
                                                       </template>
-                                                    </Password>
+                                                    </Password> -->
+                                                    <input type="password" class="form-control floating" placeholder="Password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control floating" placeholder="Confirm Password">
                                                 </div>
                                                 <div class="text-left">
                                                     <input type="checkbox" id="terms_accept">
