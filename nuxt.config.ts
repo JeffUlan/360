@@ -70,13 +70,6 @@ export default defineNuxtConfig({
         'primevue/resources/themes/md-light-indigo/theme.css',
     ],
 
-    plugins: [
-      { src: '~/plugins/vuelidate' , ssr: false },
-      { src: '~/plugins/autocompleteoff' , ssr: false },
-      '~/plugins/axios',
-      '~/plugins/axioswithouttoken',
-    ],
-
     modules: ['maz-ui/nuxt', 'nuxt-primevue'],
     primevue: {
       usePrimeVue: true,
