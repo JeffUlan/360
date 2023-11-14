@@ -22,7 +22,7 @@
                 Please leave us your email and we will let you know when we are back up.
             </p>
         </div>
-        <form action="" class="newsletter" name="newsletter" method="post">
+        <form action="" class="newsletter-coming-soon" name="newsletter-coming-soon" method="post">
             <input type="email" class="form-field" name="email" placeholder="Your Email">
             <button type="submit" class="btn-main">Notify me!</button>
         </form>
@@ -312,17 +312,17 @@
         margin-top: 20px;
     }
 
-    .newsletter {
+    .newsletter-coming-soon {
         margin: 40px auto 0 auto;
         max-width: 450px;
         position: relative;
     }
 
-    .newsletter .form-field {
-        background: rgba(99, 99, 99, 0.5);
+    .newsletter-coming-soon .form-field {
+        background: rgba(99, 99, 99, 0.5) !important;
         border: 1px solid rgba(0, 0, 0, 0.17);
         /* border-radius: 30px; */
-        box-shadow: 0 0 0px 4px rgba(132, 115, 115, 0.28);
+        box-shadow: 0 0 0px 4px rgba(132, 115, 115, 0.28) !important;
         color: #fff;
         font-size: 16px;
         height: 52px;
@@ -330,7 +330,7 @@
         width: 100%;
     }
 
-    .newsletter .form-field:focus {
+    .newsletter-coming-soon .form-field:focus {
         border: 1px solid rgba(0, 0, 0, 0.17);
         box-shadow: 0 0 0px 4px rgba(132, 115, 115, 0.28);
         outline: none
@@ -455,7 +455,7 @@
         .time {
             font-size: 22px;
         }
-        .newsletter .form-field,
+        .newsletter-coming-soon .form-field,
         .btn-main {
             height: 46px;
         }
