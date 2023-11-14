@@ -127,7 +127,7 @@
                                 <div class="call-inner">
                                     <div class="call-user">
                                         <img class="call-avatar" src="/img/chat-doctor.png" alt="User Image">
-                                        <h4>Contact a Dr.in less than <br>3 minutes</h4>
+                                        <h4>Contact a Dr.in less than <br>2 minutes</h4>
                                         <span>Calling ...</span>
                                     </div>							
                                     <div class="call-items">

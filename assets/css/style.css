@@ -5586,7 +5586,7 @@ html.menu-opened body {
 .call-box .call-wrapper .call-avatar {
 	margin-bottom: 30px;
 	cursor: pointer;
-	animation: ripple 2s infinite;
+	animation: ripple_call 2s infinite;
 }
 .call-box .call-wrapper .call-user {
 	margin-bottom: 30px;
@@ -5662,7 +5662,7 @@ html.menu-opened body {
     background: rgba(0, 0, 0, 0);
     transition: all 0.3s ease 0s;
 }
-@-webkit-keyframes ripple {
+@-webkit-keyframes ripple_call {
 	0% {
 		-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
 	}
@@ -5670,7 +5670,7 @@ html.menu-opened body {
 		-webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
 	}
 }
-@keyframes ripple {
+@keyframes ripple_call {
 	0% {
 		-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);

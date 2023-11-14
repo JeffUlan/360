@@ -307,7 +307,7 @@
     }
 
     .cta-box p {
-        color: #fff;
+        color: #1A76D1;
         font-size: 20px;
         margin-top: 20px;
     }
@@ -319,11 +319,9 @@
     }
 
     .newsletter-coming-soon .form-field {
-        background: rgba(99, 99, 99, 0.5) !important;
-        border: 1px solid rgba(0, 0, 0, 0.17);
-        /* border-radius: 30px; */
-        box-shadow: 0 0 0px 4px rgba(132, 115, 115, 0.28) !important;
-        color: #fff;
+        border: 1px solid #1A76D1;
+        border-radius: 0.25rem;
+        color: #1A76D1;
         font-size: 16px;
         height: 52px;
         padding: 0 20px 0 20px;
@@ -331,8 +329,7 @@
     }
 
     .newsletter-coming-soon .form-field:focus {
-        border: 1px solid rgba(0, 0, 0, 0.17);
-        box-shadow: 0 0 0px 4px rgba(132, 115, 115, 0.28);
+        border: 1px solid #1A76D1;
         outline: none
     }
 
@@ -355,7 +352,7 @@
 
     .btn-main:hover {
         background: linear-gradient(45deg, #1A76D1, #1A76D1);
-        color: #fff;
+        /* color: #1A76D1; */
     }
 
     .btn-main:focus {
@@ -374,11 +371,11 @@
     .social-icons a:hover,
     .social-icons a:active,
     .social-icons a:visited {
-        color: #fff;
+        color: #1A76D1;
     }
 
     .social-icons svg {
-        fill: #fff;
+        fill: #1A76D1;
         transition: all.2s ease-in-out;
         width: 20px;
     }
@@ -388,13 +385,13 @@
     }
 
     .countdown {
-        color: #fff;
+        color: #1A76D1;
         margin-top: 40px;
     }
 
     .timer-cta {
         font-size: 18px;
-        color: #fff;
+        color: #1A76D1;
     }
 
     .countdown ul {
@@ -403,7 +400,7 @@
     }
 
     .countdown ul li {
-        background: rgba(230, 230, 230, 0.12);
+        background: rgba(26, 118, 209, 0.12);
         border-radius: 100%;
         display: inline-block;
         height: 100px;
@@ -519,10 +516,8 @@ export default {
             function display(days, hours, minutes, seconds) {}
             }
 
-            var body = document.getElementsByTagName("body")[0];
-            // body.style.backgroundImage = "rgb(248, 249, 250)";
-            body.style.backgroundImage = "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7))";
-            //body.style.backgroundImage = "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/img/bg.jpg)";
+            // var body = document.getElementsByTagName("body")[0];
+            // body.style.backgroundImage = "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/img/bg.jpg)";
             // body.style.backgroundAttachment = 'fixed';
             // body.style.backgroundPosition = 'center';
             // body.style.backgroundRepeat = 'no-repeat';
