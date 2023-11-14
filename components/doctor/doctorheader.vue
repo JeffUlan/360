@@ -26,7 +26,7 @@
                     </span>
                 </a>
                 <nuxt-link to="/" class="navbar-brand logo">
-                    <img src="~/assets/img/logo.png" class="img-fluid" alt="Logo">
+                  <img src="/img/logo-patient.jpg" class="img-fluid logo-img" alt="Logo">
                 </nuxt-link>
             </div>
             <ul class="nav header-navbar-rht">
@@ -83,6 +83,16 @@ export default {
 }
 </script>
 <style>
+.header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo-img{
+  height: 75px !important;
+  widows: 75px !important;
+}
 /*================================================
 Preloader Area CSS
 =================================================*/

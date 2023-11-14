@@ -62,7 +62,7 @@
                                 <div class="icon">
                                     <i class="icofont-prescription"></i>
                                 </div>
-                                <nuxt-link to="/patient/patientsearchdoctor" class="mt-0">
+                                <nuxt-link to="/comingsoon" class="mt-0">
                                     <div class="single-content">
                                         <h4>Find your Clinic</h4>
                                         <p>You can receive medical advice and treatment without visiting in person.</p>

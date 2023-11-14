@@ -26,13 +26,13 @@
                     </span>
                 </a>
                 <nuxt-link to="/" class="navbar-brand logo">
-                    <img src="~/assets/img/logo.png" class="img-fluid" alt="Logo">
+                    <img src="/img/logo-patient.jpg" class="img-fluid logo-img" alt="Logo">
                 </nuxt-link>
             </div>
             <div class="main-menu-wrapper">
                 <div class="menu-header">
                     <a href="#" class="menu-logo">
-                        <img src="~/assets/img/logo.png" class="img-fluid" alt="Logo">
+                      <img src="/img/logo-patient.jpg" class="img-fluid logo-img" alt="Logo">
                     </a>
                     <a id="menu_close" class="menu-close" href="javascript:void(0);">
                         <i class="fas fa-times"></i>
@@ -82,6 +82,16 @@
 </template>
 
 <style>
+.header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo-img{
+  height: 75px !important;
+  widows: 75px !important;
+}
 .font-blue{
     color: #1a76d1;
 }
