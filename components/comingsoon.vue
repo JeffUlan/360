@@ -79,7 +79,7 @@
 
 </template>
 
-<style>
+<style scoped>
     /*================================================
     Preloader Area CSS
     =================================================*/
@@ -471,7 +471,6 @@
 
 export default {
     name: 'comingsoon',
-    layout: 'comingsoon',
     components: {
     },
     mounted() {

@@ -565,20 +565,6 @@ export default {
         WhyChooseBody,
     },
     mounted() {
-        var body = document.getElementsByTagName("body")[0];
-            body.style.backgroundImage = "";
-            body.style.backgroundAttachment = '';
-            body.style.backgroundPosition = '';
-            body.style.backgroundRepeat = '';
-            body.style.backgroundSize = '';
-            body.style.margin = '';
-            body.style.position = '';
-            body.style.backgroundColor = '#f8f9fa';
-            body.style.color = '#000';
-
-            body.style.fontFamily = 'Poppins,sans-serif';
-            body.style.fontSize = '.9375rem';
-            body.style.overflowX = 'hidden';
 
         $(".hero-slider").html(`
             <div class="single-slider" style="background-image:url('/img/slider/slider.png')">
