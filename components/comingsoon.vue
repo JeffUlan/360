@@ -79,7 +79,7 @@
 
 </template>
 
-<style scoped>
+<style>
     /*================================================
     Preloader Area CSS
     =================================================*/
@@ -521,16 +521,15 @@ export default {
             }
 
             var body = document.getElementsByTagName("body")[0];
-            console.log('pre');
-            console.log('pre');
-            body.style.backgroundImage = "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/img/bg.jpg)";
-            body.style.backgroundAttachment = 'fixed';
-            body.style.backgroundPosition = 'center';
-            body.style.backgroundRepeat = 'no-repeat';
-            body.style.backgroundSize = 'cover';
-            body.style.margin = '0';
-            body.style.position = 'relative';
-            console.log('pre');
+            // body.style.backgroundImage = "rgb(248, 249, 250)";
+            body.style.backgroundImage = "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7))";
+            //body.style.backgroundImage = "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/img/bg.jpg)";
+            // body.style.backgroundAttachment = 'fixed';
+            // body.style.backgroundPosition = 'center';
+            // body.style.backgroundRepeat = 'no-repeat';
+            // body.style.backgroundSize = 'cover';
+            // body.style.margin = '0';
+            // body.style.position = 'relative';
         countdown('01/01/2025 00:00:00 AM');
 
     }
