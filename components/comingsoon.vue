@@ -16,6 +16,11 @@
     <!-- End Preloader -->
     
     <div class="content-wrap">
+        <div class="logo-box">
+            <nuxt-link to="/">
+                <img src="/img/logo.png">
+            </nuxt-link>
+         </div>
         <div class="cta-box">
             <h1>We Will Be Back <span class="highlight">Soon!</span></h1>
             <p>We are using this time to give our website a revamp!<br>
