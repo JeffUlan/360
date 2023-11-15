@@ -35,14 +35,14 @@
                         <div class="body-text">
                             <p>At the heart of our mission lies a commitment to reinvent healthcare through cutting-edge telehealth solutions. <br>Designed to serve the real needs of patients and to cover every corner of Bahrain, our platform integrates a seamless chain of care, setting a new standard for accessible and personalized healthcare. <br>We're not just a healthcare service; we're your partner in building a healthier, brighter future, one consultation at a time. Welcome to the telehealth revolution – welcome to the future of well-being.</p>
                         </div>
-                        <div class="body-text" style="margin-bottom: 30px;">
+                        <!-- <div class="body-text" style="margin-bottom: 30px;">
                             <h3>Awards</h3>
                         </div>
 						<div class="image-slider">
                             <div class="pf-details-slider">
                                 <img src="/img/awards.png" alt="#" style="max-width:100%;">
                             </div>
-                        </div>
+                        </div> -->
                         <div class="body-text">
                             <h3>Testimonials</h3>
                             <p><h5>Testimonial 1 :</h5></p>
